@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>crimes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="container" style="margin-top: 50px;">
+
+<% if (messages.success) { %>
+    <div class="alert alert-success" role="alert"><%- messages.success %></div>
+<% } %>
+
+<% if (messages.error) { %>
+    <div class="alert alert-danger" role="alert"><%- messages.error %></div>
+<% } %>
+
+<div class="card">
+    <div class="card-header">
+        <ul class="nav nav-pills w-100">
+            <li class="nav-pill active">
+                <a class="nav-link">Crimes</a>
+            </li>
+            <li class="nav-pill ml-auto">
+                <a class="nav-link active" href="/crimes/add">Add Crime</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+
+        <% if(data.length) { %>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Complaint Num</th>
+                    <th scope="col">Report Date</th>
+                    <th scope="col">Offense Desc</th>
+                    <th scope="col">Borough</th>
+                    <th scope="col">PremiseType</th>
+                    <th width="200px">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <% for(var i = 0; i< data.length; i++) { %>
+                    <tr>
+                        <th scope="row"><%= data[i].ComplaintNum%></th>
+                        <td><%= data[i].ReportDate%></td>
+                        <td><%= data[i].OffenseDesc%></td>
+                        <td><%= data[i].Borough%></td>
+                        <td><%= data[i].PremiseType%></td>
+                        <td>
+                            <a class="btn btn-success edit" href="../crimes/edit/<%=data[i].CrimeId%>">Edit</a>
+                            <a class="btn btn-danger delete" onclick="return alert('Are You sure?')" href="../crimes/delete/<%=data[i].CrimeId%>">Delete</a>
+                        </td>
+                    </tr>
+                <% } %>
+                </tbody>
+            </table>
+        <% } %>
+
+        <!-- if result is empty -->
+        <% if(!data.length) { %>
+            <p class="text-center">No Crimes found!</p>
+        <% } %>
+
+    </div>
+</div>
+
+</body>
+</html>
