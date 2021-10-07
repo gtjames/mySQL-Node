@@ -10,19 +10,19 @@ router.get('/', function(req, res, next) {
     //  We are just using plain old SQL to hit the database.
     //                                                  OH LOOK! a callback function
     dbConn.query('SELECT CrimeId, ComplaintNum, ReportDate, OffenseDesc, Borough, PremiseType ' +
-                 ' FROM crimes ' +
-                 ' ORDER BY ReportDate desc' +
-                 ' limit 100',
-                            function(err,rows)     {
-        if(err) {
-            req.flash('error', err);
-            // render to views/crimes/index.ejs
-            res.render('crimes',{data:''});          //  notice all data back to the client is in a JSON object
-        } else {
-            // render to views/crimes/index.ejs
-            res.render('crimes',{data:rows});        //  JSON data of the list of crimes
-        }
-    });
+        ' FROM crimes ' +
+        ' ORDER BY ReportDate desc' +
+        ' limit 100',
+        function(err,rows)     {
+            if(err) {
+                req.flash('error', err);
+                // render to views/crimes/index.ejs
+                res.render('crimes',{data:''});          //  notice all data back to the client is in a JSON object
+            } else {
+                // render to views/crimes/index.ejs
+                res.render('crimes',{data:rows});        //  JSON data of the list of crimes
+            }
+        });
 });
 
 // display add crime page
