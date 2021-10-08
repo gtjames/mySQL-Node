@@ -157,4 +157,27 @@ router.get('/delete/(:id)', function(req, res, next) {
     })
 })
 
+// search crime
+router.post('/search', function(req, res, next) {
+
+    let column = req.body.attrib;
+    let value = req.body.search;
+
+    dbConn.query(
+        `SELECT *
+         FROM books
+         WHERE ${column} like '%${value}%'
+         limit 100`,
+        function(err,rows)     {
+            if(err) {
+                req.flash('error', err);
+                // render to views/crimes/index.ejs
+                res.render('books',{data:''});          //  notice all data back to the client is in a JSON object
+            } else {
+                // render to views/crimes/index.ejs
+                res.render('books',{data:rows});        //  JSON data of the list of crimes
+            }
+        });
+})
+
 module.exports = router;

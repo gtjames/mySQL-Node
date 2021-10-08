@@ -22,6 +22,17 @@
             <li class="nav-pill active">
                 <a class="nav-link">Crimes</a>
             </li>
+            <li>
+                <form action="/crimes/search" method="post">
+                    <select name="attrib" id="attrib">
+                        <option value="ComplaintNum">Complaint #</option>
+                        <option value="OffenseDesc">Description</option>
+                        <option value="Borough">Borough</option>
+                        <option value="PremiseType">Premise Type</option>
+                    </select>
+                    <input id="search" name="search" type="text">
+                </form>
+            </li>
             <li class="nav-pill ml-auto">
                 <a class="nav-link active" href="/crimes/add">Add Crime</a>
             </li>

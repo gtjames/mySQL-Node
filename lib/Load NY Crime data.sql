@@ -30,7 +30,7 @@ CREATE TABLE crimes (
   Longitude decimal(14,9) DEFAULT NULL,
   Lat_Lon varchar(60) DEFAULT NULL,
   PRIMARY KEY (CrimeId)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT;
 
 --
 -- 
