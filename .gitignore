@@ -6,3 +6,6 @@
 .idea/vagrant.xml
 .idea/vcs.xml
 .idea/codeStyles/codeStyleConfig.xml
+/.idea/dataSources.local.xml
+/.idea/dataSources.xml
+/.idea/sqldialects.xml
