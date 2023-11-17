@@ -17,7 +17,7 @@ let wardMembers = [];
 let popup = L.popup();
 let popups = [], markers = [];
 
-function start()  {
+function start(database)  {
     if (database) {
         fetch('http://127.0.0.1:3000/members/get/9819187')
         .then(data => data.json())
@@ -25,7 +25,7 @@ function start()  {
             theWard = mbrs.data;
         });
     } else {
-    theWard = standardizeNames(whoWhatWhere.members);
+        theWard = standardizeNames(whoWhatWhere.members);
     }
     savedGPS = JSON.parse(localStorage.getItem('gps'));
 
