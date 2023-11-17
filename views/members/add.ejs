@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Add Member</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="container" style="margin-top: 50px;">
+
+<% if (messages.error) { %>
+    <div class="alert alert-danger" role="alert"><%- messages.error %></div>
+<% } %>
+
+<div class="card">
+    <div class="card-header">
+        Add Member
+    </div>
+    <div class="card-body">
+        <form action="/members/add" class="form-signin" method="post">
+<div class="row">
+    <div class="col-sm-4">
+        <div class="input-group mb-3"> <span class="input-group-text">Id</span>         <input type="text" class="form-control" name="id" value="<%= id %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">First</span>      <input type="text" class="form-control" name="first" value="<%= first %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Last</span>       <input type="text" class="form-control" name="last" value="<%= last %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Address1</span>   <input type="text" class="form-control" name="address1" value="<%= address1 %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Address2</span>   <input type="text" class="form-control" name="address2" value="<%= address2 %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">City</span>       <input type="text" class="form-control" name="city" value="<%= city %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Zip</span>        <input type="text" class="form-control" name="zip" value="<%= zip %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Age</span>        <input type="text" class="form-control" name="age" value="<%= age %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Gender</span>     <input type="text" class="form-control" name="gender" value="<%= gender %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Phone</span>      <input type="text" class="form-control" name="phone" value="<%= phone %>" autocomplete="off"> </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="input-group mb-3"> <span class="input-group-text">Email</span>      <input type="text" class="form-control" name="email" value="<%= email %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Birthday</span>   <input type="text" class="form-control" name="birthday" value="<%= birthday %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">MovedIn</span>    <input type="text" class="form-control" name="movedIn" value="<%= movedIn %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">HomePhone</span>  <input type="text" class="form-control" name="homePhone" value="<%= homePhone %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Priesthood</span> <input type="text" class="form-control" name="priesthood" value="<%= priesthood %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Endowed</span>    <input type="text" class="form-control" name="endowed" value="<%= endowed %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">RecType</span>    <input type="text" class="form-control" name="recType" value="<%= recType %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">RecStatus</span>  <input type="text" class="form-control" name="recStatus" value="<%= recStatus %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">RecExpire</span>  <input type="text" class="form-control" name="recExpire" value="<%= recExpire %>" autocomplete="off"> </div>
+        <div class="input-group mb-3"> <span class="input-group-text">Baptized</span>   <input type="text" class="form-control" name="baptized" value="<%= baptized %>" autocomplete="off"> </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="input-group mb-3"> <span class="input-group-text">Convert</span>    <input type="text" class="form-control" name="convert" value="<%= convert %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">RM</span>         <input type="text" class="form-control" name="RM" value="<%= RM %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">Institute</span>  <input type="text" class="form-control" name="institute" value="<%= institute %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">MinBros</span>    <input type="text" class="form-control" name="minBros" value="<%= minBros %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">MinSiss</span>    <input type="text" class="form-control" name="minSiss" value="<%= minSiss %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">Sealed</span>     <input type="text" class="form-control" name="sealed" value="<%= sealed %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">Lat</span>        <input type="text" class="form-control" name="lat" value="<%= lat %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">Long</span>       <input type="text" class="form-control" name="long" value="<%= long %>" autocomplete="off"> </div>
+            <div class="input-group mb-3"> <span class="input-group-text">Notes</span>      <input type="text" class="form-control" name="notes" value="<%= notes %>" autocomplete="off"> </div>
+        </div>
+    </div>
+        
+            <div class="form-group">
+                <a class="btn btn-success edit" href="/members/">Cancel</a>
+                <input type="submit" class="btn btn-info" value="Add"/>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script>
+//     let attr = document.getElementById('memberAttr');
+// let attrs = ["id", "first", "last", "name", "address1", "address2", "city", "zip", "age", "gender", 
+//          "phone", "email", "birthday",  "movedIn",  "homePhone",
+//      "priesthood", "endowed", "recType", "recStatus", "recExpire",
+//      "convert", "baptized", "institute",  "RM", "sealed",
+//      "minBros", "minSiss", "lat", "long", "notes" ];
+
+// // attr.innerHTML = '';
+// attrs.forEach(a => {
+//     let html = `<div class="form-group">
+//         <label>${a.toLocaleUpperCase()[0]+a.substring(1)}:</label>
+//         <input type="text" class="form-control" id=${a} name="${a}" autocomplete="off">
+//     </div>`;
+// attr.innerHTML += html;
+// } );
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.ATOZ {background: url("../images/atoz.png") no-repeat right top;}
+.ZTOA {background: url("../images/ztoa.svg") no-repeat left bottom;}

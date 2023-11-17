@@ -1,0 +1,54 @@
+html, body, #main, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.leaflet-popup-content p { margin: 4px 0px 2px 8px; }
+.btn                     { margin: 3px; padding: 5px; }
+.badge                   { width: 60px; }
+div:has(a.collapsed)     { width: 150px; }
+.scroll                  { height: 250px; overflow-y: scroll; }
+
+.info {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    z-index: 100;
+    width: 275px;
+}
+
+#updates {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#updates li {
+    margin: 3px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px 10px 10px;
+}
+
+.modal-dialog   {margin-bottom: 20px; margin-left: 10px;}
+li                       { list-style-type: none;
+    --bs-opacity: .45;
+}
+div.modal-content        { width: 250px; }
+ul                       { padding: 0px; }
+ul.dropdown-menu         { width: 210px; }
+li.query                 { padding: 1px 10px; }
+li.query:nth-child(odd)  { background: rgba(var(--bs-info-rgb),    var(--bs-opacity)); }
+li.query:nth-child(even) { background: rgba(var(--bs-warning-rgb), var(--bs-opacity)); }
+li.query:hover           { background: rgba(var(--bs-danger-rgb), var(--bs-opacity)); }
+label                    { padding: 0px 2px;}
+
+

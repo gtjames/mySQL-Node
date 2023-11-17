@@ -34,7 +34,7 @@ CREATE TABLE crimes (
 
 --
 -- 
-LOAD DATA INFILE '/Users/garyjames/WebstormProjects/Node-MySQL/lib/100K.csv'
+LOAD DATA INFILE '/Users/garyjames/Library/Mobile Documents/com~apple~CloudDocs/WebstormProjects/csv/100K.CSV'
 INTO TABLE crimes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
