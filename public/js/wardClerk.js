@@ -17,21 +17,22 @@ let wardMembers = [];
 let popup = L.popup();
 let popups = [], markers = [];
 
-function start(database)  {
+function start(database = true)  {
     if (database) {
         fetch('http://127.0.0.1:3000/members/get/9819187')
         .then(data => data.json())
-        .then(mbrs => {
-            theWard = mbrs.data;
-        });
+        .then(mbrs => initPage(mbrs.data));
     } else {
-        theWard = standardizeNames(whoWhatWhere.members);
+        initPage(standardizeNames(whoWhatWhere.members));
     }
+}
+
+function initPage(data) {
+    theWard = data
     savedGPS = JSON.parse(localStorage.getItem('gps'));
 
-    if (savedGPS === null) {
-        savedGPS = fallback;
-    }
+    if (savedGPS === null)      savedGPS = fallback;
+
     setGPSandNotes(theWard, savedGPS, notes);
     document.getElementById("count").innerText = `${theWard.length} Members`;
 }
