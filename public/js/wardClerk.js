@@ -17,7 +17,8 @@ let wardMembers = [];
 let popup = L.popup();
 let popups = [], markers = [];
 
-function start(database = true)  {
+loadData(true);
+function loadData(database = true)  {
     if (database) {
         fetch('http://127.0.0.1:3000/members/get/9819187')
         .then(data => data.json())
