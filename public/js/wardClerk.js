@@ -4,9 +4,10 @@
 // import { whoWhatWhere }     from './whoWhatWhere.js';
 // theWard.forEach(m => console.log( 
 //     `${m.id},"${m.name}",${m.last},${m.first},${m.city},${m.address1},${m.address2},${m.zip},${m.age},
-//     ${m.gender},${m.baptized},${m.birthday},${m.hasMinBros},${m.hasMinSiss},"${m.minBros}",${m.homePhone},
+//     ${m.gender},${m.baptized},${m.birthday},"${m.minBros}","${m.minSiss}",
 //     ${m.email},${m.phone},${m.institute},${m.convert},${m.endowed},${m.RM},${m.sealed},${m.movedIn},
-//     ${m.priesthood},${m.recExpire},${m.recStatus},${m.recType},"${m.minSiss}",${m.lat},${m.long},"${m.notes}"`) );
+//     ${m.priesthood},${m.recExpire},${m.recStatus},${m.recType},${m.lat},${m.long},"${m.notes}","${m.callings}"`) );
+
 let theWard = [];
 let wardMap = {};
 let map;
