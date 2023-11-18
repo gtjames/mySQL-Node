@@ -7,7 +7,7 @@
 //     ${m.gender},${m.baptized},${m.birthday},"${m.minBros}","${m.minSiss}",
 //     ${m.email},${m.phone},${m.institute},${m.convert},${m.endowed},${m.RM},${m.sealed},${m.movedIn},
 //     ${m.priesthood},${m.recExpire},${m.recStatus},${m.recType},${m.lat},${m.long},"${m.notes}","${m.callings}"`) );
-
+   
 let theWard = [];
 let wardMap = {};
 let map;
@@ -62,6 +62,7 @@ let txtAge      = document.querySelector("#Age");
 let txtBDay     = document.querySelector("#BDay");
 let txtPrsthd   = document.querySelector("#Priesthood");
 let txtNotes    = document.querySelector("#Notes");
+let txtCallings = document.querySelector("#Callings");
 let txtRec      = document.querySelector("#Recommend");
 let txtRecType  = document.querySelector("#RecType");
 let txtRecExpire= document.querySelector("#RecExpire");
@@ -207,6 +208,7 @@ function plotMembers(event) {
 
     if (txtPrsthd.value.length      > 0) results = results.filter(r =>  matches(r.priesthood,txtPrsthd));
     if (txtNotes.value.length       > 0) results = results.filter(r =>  matches(r.notes,     txtNotes));
+    if (txtCallings.value.length    > 0) results = results.filter(r =>  matches(r.callings,  txtCallings));
     if (txtBDay.value.length        > 0) results = results.filter(r =>  matches(r.birthday,  txtBDay));
     if (txtRec.value.length         > 0) results = results.filter(r =>  matches(r.recStatus, txtRec));
     if (txtRecType.value.length     > 0) results = results.filter(r =>  matches(r.recType,   txtRecType));
@@ -303,7 +305,7 @@ function createPopup(who) {
     if (popAddress.checked)     msg += `Address:${space}${who.address1} ${who.address2??""}, ${who.city}<p>`;
     if (popStats.checked)       msg += `Stats:${space}Age: ${who.age}, ${who.gender}${space}B-Day: ${who.birthday}<p>`;
     if (popContact.checked)     msg += `Conact:${space}eMail: ${who.email}${space}Phn: ${who.phone}${space}Notes: ${who.notes}<p>`;
-    if (popMbrInfo.checked)     msg += `Mbr Info:${space}Bap: ${who.baptized} Convert: ${who.convert}${space}Mission: ${who.RM}${space}Sealed: ${who.sealed} Prsthd: ${who.priesthood.length==0?"---":who.priesthood}${space}Moved In: ${who.movedIn} Institute: ${who.institute}<p>`;
+    if (popMbrInfo.checked)     msg += `Mbr Info:${space}Callings: ${who.callings}${space}Bap: ${who.baptized} Convert: ${who.convert}${space}Mission: ${who.RM}${space}Sealed: ${who.sealed} Prsthd: ${who.priesthood.length==0?"---":who.priesthood}${space}Moved In: ${who.movedIn} Institute: ${who.institute}<p>`;
     if (popTemple.checked)      msg += `Temple:${space}Endowed: ${who.endowed} Rec Exp: ${who.recExpire}${space}Type: ${who.recType}${space}Status: ${who.recStatus}<p>`;
     if (popMinistering.checked) msg += `Ministering:${space}Bro: ${who.minBros}${space}Sis: ${who.minSiss}<p>`;
     if (popLatLong.checked)     msg += `Lat: ${who.lat.toFixed(3)} Long: ${who.long.toFixed(3)}<p>`;
