@@ -1,3 +1,4 @@
+let whoWhatWhere =
 {
     "id": null,
     "name": "Who, What, When",

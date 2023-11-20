@@ -407,7 +407,7 @@ function addOneToWard(adrs, name, gps) {
 }
 
 function getDistances() {
-    if (getDist.contains('btn-primary')) {
+    if (getDist.classList.contains('btn-primary')) {
         console.table(distances);
         return;
     }
@@ -415,34 +415,17 @@ function getDistances() {
     getDist.classList.add('btn-primary');
 
     let active = theWard.filter(a => a.notes === 'Active');
-    for ( let m1 of active) {
-        active.pop();
-        for (let m2 of active) {
-            getDistance(m1, m2);
+    for ( let m1 = 0; m1 < active.length; m1++) {
+        for (let m2 = m1+1; m2 < active.length; m2++) {
+            try {
+            console.log(m1 + " " + m2);
+            var latlng1 = L.latLng(active[m1].lat, active[m1].long);
+            var latlng2 = L.latLng(active[m2].lat, active[m2].long);
+            distances.push( {from: active[m1].first, to: active[m2].first, distance: latlng1.distanceTo(latlng2).toFixed(0)/621});
+            displayUpdate (`${active[m1].first} to ${active[m2].first}: ${(latlng1.distanceTo(latlng2)/621).toFixed(1)} mi`);
+            } catch(err) {
+                console.log(m1 + " " + m2);
+            }
         }
     }
-}
-    
-function getDistance(m1, m2) {
-    const url = `https://distance-calculator.p.rapidapi.com/distance/simple?lat_1=${m1.lat}&long_1=${m1.long}&lat_2=${m2.lat}&long_2=${m2.long}&unit=miles&decimal_places=2`;
-    const options = {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-RapidAPI-Key': '498ed225bamshcd02cf5559e10edp179d21jsn59b140b93ec5',
-            'X-RapidAPI-Host': 'distance-calculator.p.rapidapi.com'
-        }
-    };
-    
-    try {
-        let response = fetch(url, options)
-        .then (res => res.json())
-        .then (res => {
-            getDist.innerText = `${m1.name} is ${res.distance} from ${m2.name}`;
-            distances.push({name1: m1.name, name2: m2.name, dist: res.distance});
-        })
-    } catch (error) {
-        console.error(error);
-    }
-    return response;
 }
