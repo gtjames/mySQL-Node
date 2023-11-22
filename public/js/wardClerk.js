@@ -423,6 +423,6 @@ function getDistances(id) {
     for (let m2 of active) {
         row++;
         let dist = (latlng1.distanceTo(L.latLng(m2.lat, m2.long))/1609).toFixed(1);
-        distModal.innerHTML += `<tr class=table-${style[row%2]}><td>${m2.first} ${m2.last}</td><td>${dist}</td></tr>`;
+        distModal.innerHTML += `<tr class=table-${style[row%2]}><td>${m2.first}</td><td>${m2.last}</td><td>${dist}</td></tr>`;
     }
 }

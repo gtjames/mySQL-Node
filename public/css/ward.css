@@ -38,17 +38,15 @@ div:has(a.collapsed)     { width: 150px; }
     padding: 5px 5px 10px 10px;
 }
 
-/* .modal-dialog   {margin-bottom: 20px; margin-left: 10px;} */
-li                       { list-style-type: none;
-    --bs-opacity: .45;
-}
-/* div.modal-content        { width: 250px; } */
 ul                       { padding: 0px; }
 ul.dropdown-menu         { width: 210px; }
+li                       { list-style-type: none; --bs-opacity: .45; }
 li.query                 { padding: 1px 10px; }
 li.query:nth-child(odd)  { background: rgba(var(--bs-info-rgb),    var(--bs-opacity)); }
 li.query:nth-child(even) { background: rgba(var(--bs-warning-rgb), var(--bs-opacity)); }
 li.query:hover           { background: rgba(var(--bs-danger-rgb), var(--bs-opacity)); }
+
 label                    { padding: 0px 2px;}
 
-
+.ATOZ {background: url("../images/atoz.png") no-repeat right top;}
+.ZTOA {background: url("../images/ztoa.svg") no-repeat left bottom;}
