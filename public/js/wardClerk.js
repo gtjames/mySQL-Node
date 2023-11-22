@@ -168,15 +168,15 @@ function onMapClick(e)
 }
 
 function popupName(e) {
-    console.log(e.target.innerText);
-    if (popSpeak.checked)       talkToMe(e.target.innerText);
+    let name = e.target.innerText.substring(5);
+    if (popSpeak.checked)       talkToMe(name);
     let id = e.target.getAttribute('id');
     let mbr = theWard.filter(m => m.id == id);
     if (mbr.length == 0)    return;
     mbr = mbr[0];
     L.popup()
         .setLatLng([mbr.lat, mbr.long])
-        .setContent(`${e.target.innerText}<p>${mbr.phone}`).addTo(map);
+        .setContent(`${name}<p>${mbr.phone}`).addTo(map);
 }
 
 //  plot Addresses
