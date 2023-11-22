@@ -85,11 +85,9 @@ document.querySelector('#include'    ).addEventListener('click', includeAll);
 
 let noGPS       = document.querySelector('#getZeroGPS'  );
 let getLongLat  = document.querySelector('#getLongLat'  );
-let getDist     = document.querySelector('#getDistances');
 
-noGPS.addEventListener      ('click', getZeroGPS);
+noGPS.addEventListener     ('click', getZeroGPS);
 getLongLat.addEventListener('click', getGPS);
-getDist.addEventListener    ('click', getDistances);
 
 updates.addEventListener('click', popupName);
 
@@ -103,10 +101,8 @@ window.navigator.geolocation.getCurrentPosition(setLocation);
 
 //  put the map behind the updates list
 document.getElementById("map").style.zIndex = "10";
-// setLocation({coords:{longitude: -63.05, latitude:18.22}});
 
 function setLocation(loc) {
-    displayUpdate(JSON.stringify({latitude: loc.coords.latitude, longitude: loc.coords.longitude}));
     map = L.map('map').setView([loc.coords.latitude, loc.coords.longitude], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -160,7 +156,8 @@ function setLocation(loc) {
 //     redIcon = new LeafIcon({iconUrl: 'images/dot-red.png'}),
 //     orangeIcon = new LeafIcon({iconUrl: 'images/dot-orange.png'});
 
-function onMapClick(e) {
+function onMapClick(e) 
+{
     wardMap.selectedPoint = { longitude: e.latlng.lng, latitude: e.latlng.lat };
     if (clickMarker) clickMarker.remove();
     clickMarker = L.marker([e.latlng.lat, e.latlng.lng]).addTo(map);
@@ -173,10 +170,13 @@ function onMapClick(e) {
 function popupName(e) {
     console.log(e.target.innerText);
     if (popSpeak.checked)       talkToMe(e.target.innerText);
-
+    let id = e.target.getAttribute('id');
+    let mbr = theWard.filter(m => m.id == id);
+    if (mbr.length == 0)    return;
+    mbr = mbr[0];
     L.popup()
-        .setLatLng([e.target.getAttribute('lat'), e.target.getAttribute('long')])
-        .setContent(`${e.target.innerText}<p>${e.target.getAttribute('phone')}`).addTo(map);
+        .setLatLng([mbr.lat, mbr.long])
+        .setContent(`${e.target.innerText}<p>${mbr.phone}`).addTo(map);
 }
 
 //  plot Addresses
@@ -267,8 +267,10 @@ function includeAll() {
 
 //  displayUpdate
 //      nice utility method to show message to user
-function displayUpdate(text, attr) { 
-    updates.innerHTML += `<li class="query" ${attr}>${text}</li>`; 
+function displayUpdate(text, who) { 
+    updates.innerHTML += `<li class="query" id=${who.id}>
+       <button id="showDistance" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" type="button" onclick=getDistances(${who.id}) >Dist</button>
+    ${text}</li>`; 
 }
 
 function clearUpdate() { 
@@ -279,7 +281,7 @@ function clearUpdate() {
 }
 
 function plotAddress(who) {
-    if (cblist.checked) displayUpdate(`${who.first} ${who.last}`, `lat=${who.lat} long=${who.long} phone=${who.phone}`);
+    if (cblist.checked) displayUpdate(`${who.first} ${who.last}`, who);
 
     let marker = L.marker([who.lat, who.long], { icon: who.gender == 'M' ? broIcon : sisIcon }).addTo(map);      //  , {icon: dot}
     wardMembers.push(marker);
@@ -384,7 +386,7 @@ function getZeroGPS() {
     noGPS.innerText = `${empty.length} w/o GPS `;
     if (empty.length === 0) return;
     empty.forEach(e => {
-        displayUpdate(`${e.name} ${e.lat} ${e.long}`, `lat=${e.lat} long=${e.long} phone=${e.phone}`)
+        displayUpdate(`${e.name} ${e.lat} ${e.long}`, e)
         getLongLatFromAdrs(e.name, e.address1 + ', ' + e.city + ' TX', addOneToWard);
     });
 }
@@ -406,26 +408,21 @@ function addOneToWard(adrs, name, gps) {
     setGPSandNotes(theWard, savedGPS, null);
 }
 
-function getDistances() {
-    if (getDist.classList.contains('btn-primary')) {
-        console.table(distances);
-        return;
-    }
-    getDist.classList.remove('btn-danger');
-    getDist.classList.add('btn-primary');
-
+function getDistances(id) {
+    let distModal = document.querySelector("#distList");
+    let distTitle = document.querySelector("#modalTitle");
+    
+    let m1 = theWard.filter(m => m.id == id)[0];
+    
+    distTitle.innerText = `Distance from ${m1.first} ${m1.last}`;
+    var latlng1 = L.latLng(m1.lat, m1.long);
+    distModal.innerHTML = "";
+    let style = ["warning","info"];
+    let row = 0;
     let active = theWard.filter(a => a.notes === 'Active');
-    for ( let m1 = 0; m1 < active.length; m1++) {
-        for (let m2 = m1+1; m2 < active.length; m2++) {
-            try {
-            console.log(m1 + " " + m2);
-            var latlng1 = L.latLng(active[m1].lat, active[m1].long);
-            var latlng2 = L.latLng(active[m2].lat, active[m2].long);
-            distances.push( {from: active[m1].first, to: active[m2].first, distance: latlng1.distanceTo(latlng2).toFixed(0)/621});
-            displayUpdate (`${active[m1].first} to ${active[m2].first}: ${(latlng1.distanceTo(latlng2)/621).toFixed(1)} mi`);
-            } catch(err) {
-                console.log(m1 + " " + m2);
-            }
-        }
+    for (let m2 of active) {
+        row++;
+        let dist = (latlng1.distanceTo(L.latLng(m2.lat, m2.long))/1609).toFixed(1);
+        distModal.innerHTML += `<tr class=table-${style[row%2]}><td>${m2.first} ${m2.last}</td><td>${dist}</td></tr>`;
     }
 }

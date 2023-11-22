@@ -38,11 +38,11 @@ div:has(a.collapsed)     { width: 150px; }
     padding: 5px 5px 10px 10px;
 }
 
-.modal-dialog   {margin-bottom: 20px; margin-left: 10px;}
+/* .modal-dialog   {margin-bottom: 20px; margin-left: 10px;} */
 li                       { list-style-type: none;
     --bs-opacity: .45;
 }
-div.modal-content        { width: 250px; }
+/* div.modal-content        { width: 250px; } */
 ul                       { padding: 0px; }
 ul.dropdown-menu         { width: 210px; }
 li.query                 { padding: 1px 10px; }
