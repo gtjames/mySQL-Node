@@ -85,7 +85,7 @@ let notes = [
     {name: "Aguirre, Hailey", notes: ""},
     {name: "Alfaro, Daniel Andrew", notes: ""},
     {name: "Almodovar, Bianca Yara", notes: ""},
-    {name: "Anderson, Charlotte", notes: ""},
+    {name: "Anderson, Charlotte", notes: "Active"},
     {name: "Arungwa, Samuel Chikodi", notes: ""},
     {name: "Barnes, Courtney", notes: ""},
     {name: "Becerra-Gonzales, Tabitha Raiann", notes: ""},

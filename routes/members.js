@@ -35,11 +35,11 @@ router.get('/get/(:id)', (req, res, next) => {
 router.get('/add', function (req, res, next) {
     // render to add.ejs
     res.render('members/add', {  //  no data because we are adding a new member
-        id: 0, first: '', last: '', address1: '', notes: '', city: '', gender: '', 
-        address2: '', zip: '', age: 0, birthday: '', minBros: '', 
-        homePhone: '', email: '', phone: '', institute: '', convert: '', endowed: '', RM: '', 
+        id: 0, first: '', last: '', address1: '', address2: '', zip: '', city: '',
+        gender: '', age: 0, birthday: '', minBros: '', minSiss: '', 
+        email: '', phone: '', institute: '', convert: '', endowed: '', RM: '', 
         movedIn: '', priesthood: '', recExpire: '', recStatus: '', recType: '', 
-        minSiss: '', lat: '', long: ''
+        notes: '', lat: '', long: ''
     });
 })
 

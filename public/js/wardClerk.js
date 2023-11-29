@@ -18,9 +18,9 @@ let wardMembers = [];
 let popup = L.popup();
 let popups = [], markers = [];
 
-loadData(true);
-function loadData(database = true)  {
-    if (database) {
+loadData();
+function loadData()  {
+    if (+document.location.port === 3000) {
         fetch('http://127.0.0.1:3000/members/get/9819187')
         .then(data => data.json())
         .then(mbrs => initPage(mbrs.data));
@@ -31,6 +31,11 @@ function loadData(database = true)  {
 
 function initPage(data) {
     theWard = data
+    theWard.unshift( {id: 0, first: "1 California",   last: ' ', lat: 32.69905, long: -97.13096, notes: "Active" } );
+    theWard.unshift( {id: 1, first: "2 Stake Center", last: ' ', lat: 32.68776, long: -97.16802, notes: "Active" } );
+    theWard.unshift( {id: 2, first: "3 Forest Hill",  last: ' ', lat: 32.66660, long: -97.26414, notes: "Active" } );
+    theWard.unshift( {id: 3, first: "4 Institute",    last: ' ', lat: 32.61441, long: -97.16883, notes: "Active" } );
+
     savedGPS = JSON.parse(localStorage.getItem('gps'));
 
     if (savedGPS === null)      savedGPS = fallback;
@@ -82,6 +87,7 @@ let updates     = document.querySelector("#updates");
 document.querySelector('#plot'       ).addEventListener('click', plotMembers);
 document.querySelector('#remove'     ).addEventListener('click', removeAllPoints);
 document.querySelector('#include'    ).addEventListener('click', includeAll);
+document.querySelector("#distList"   ).addEventListener('click', newDistances);
 
 let noGPS       = document.querySelector('#getZeroGPS'  );
 let getLongLat  = document.querySelector('#getLongLat'  );
@@ -94,8 +100,10 @@ updates.addEventListener('click', popupName);
 let cblist = document.querySelector("#list");
 let cbTags = document.querySelector("#nameTags");
 
-var broIcon = L.icon({ iconUrl: 'images/bro.png', iconSize: [15, 10] });
-var sisIcon = L.icon({ iconUrl: 'images/sis.png', iconSize: [10, 15] });
+var broIcon     = L.icon({ iconUrl: 'images/bro.png', iconSize: [15, 10] });
+var sisIcon     = L.icon({ iconUrl: 'images/sis.png', iconSize: [10, 15] });
+var chapelIcon  = L.icon({ iconUrl: 'images/chapel.png', iconSize: [25, 25] });
+var noIcon      = L.icon({ iconUrl: 'images/bro.png', iconSize: [1, 1] });
 
 window.navigator.geolocation.getCurrentPosition(setLocation);
 
@@ -283,7 +291,7 @@ function clearUpdate() {
 function plotAddress(who) {
     if (cblist.checked) displayUpdate(`${who.first} ${who.last}`, who);
 
-    let marker = L.marker([who.lat, who.long], { icon: who.gender == 'M' ? broIcon : sisIcon }).addTo(map);      //  , {icon: dot}
+    let marker = L.marker([who.lat, who.long], { icon: who.gender == 'M' ? broIcon : who.gender == 'F' ? sisIcon : noIcon }).addTo(map);
     wardMembers.push(marker);
     marker.on('click', e => {
         // console.log(e.target._popup._content);
@@ -408,6 +416,9 @@ function addOneToWard(adrs, name, gps) {
     setGPSandNotes(theWard, savedGPS, null);
 }
 
+function newDistances(e) {
+    getDistances(e.target.parentElement.id);
+}
 function getDistances(id) {
     let distModal = document.querySelector("#distList");
     let distTitle = document.querySelector("#modalTitle");
@@ -420,9 +431,14 @@ function getDistances(id) {
     let style = ["warning","info"];
     let row = 0;
     let active = theWard.filter(a => a.notes === 'Active');
+    let dist;
+    let totalDist = 0;
+
     for (let m2 of active) {
         row++;
-        let dist = (latlng1.distanceTo(L.latLng(m2.lat, m2.long))/1609).toFixed(1);
-        distModal.innerHTML += `<tr class=table-${style[row%2]}><td>${m2.first}</td><td>${m2.last}</td><td>${dist}</td></tr>`;
-    }
+        dist = (latlng1.distanceTo(L.latLng(m2.lat, m2.long))/1609).toFixed(1);
+        distModal.innerHTML += `<tr id=${m2.id}><td>${m2.first}</td><td>${m2.last}</td><td>${dist}</td></tr>`;
+        totalDist += +dist;
+    }       //   class=table-${style[row%2]}
+    document.querySelector("#totalDist").innerText = `Average Distance: ${(totalDist/active.length).toFixed(2)}`;
 }
