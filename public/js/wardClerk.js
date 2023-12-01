@@ -30,11 +30,16 @@ function loadData()  {
 }
 
 function initPage(data) {
+    let defaults = {city: '', address1: '', address2: '', zip: '', 
+    age: '', gender: '', baptized: '', callings: '', birthday: '', phone: '', email: '', 
+    institute: '', convert: '', endowed: '', RM: '', sealed: '', movedIn: '', priesthood: '', 
+    recExpire: '', recStatus: '', recType: '', minBros: '', minSiss: '', notes: 'Active' };
+
     theWard = data
-    theWard.unshift( {id: 0, first: "1 California",   last: ' ', lat: 32.69905, long: -97.13096, notes: "Active" } );
-    theWard.unshift( {id: 1, first: "2 Stake Center", last: ' ', lat: 32.68776, long: -97.16802, notes: "Active" } );
-    theWard.unshift( {id: 2, first: "3 Forest Hill",  last: ' ', lat: 32.66660, long: -97.26414, notes: "Active" } );
-    theWard.unshift( {id: 3, first: "4 Institute",    last: ' ', lat: 32.61441, long: -97.16883, notes: "Active" } );
+    theWard.unshift( { ...{id: 3, first: '3', last: 'Institute',    name: "3 Institute",    lat: 32.61441, long: -97.16883, }, ...defaults } );
+    theWard.unshift( { ...{id: 2, first: '2', last: 'Forest Hill',  name: "2 Forest Hill",  lat: 32.66660, long: -97.26414, }, ...defaults } );
+    theWard.unshift( { ...{id: 1, first: '1', last: 'Stake Center', name: "1 Stake Center", lat: 32.68776, long: -97.16802, }, ...defaults } );
+    theWard.unshift( { ...{id: 0, first: '0', last: 'California',   name: "0 California",   lat: 32.69905, long: -97.13096, }, ...defaults } );
 
     savedGPS = JSON.parse(localStorage.getItem('gps'));
 
