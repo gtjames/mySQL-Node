@@ -95,10 +95,10 @@ document.querySelector('#include'    ).addEventListener('click', includeAll);
 document.querySelector("#distList"   ).addEventListener('click', newDistances);
 
 let noGPS       = document.querySelector('#getZeroGPS'  );
-let getLongLat  = document.querySelector('#getLongLat'  );
+let getLatLong  = document.querySelector('#getLatLong'  );
 
 noGPS.addEventListener     ('click', getZeroGPS);
-getLongLat.addEventListener('click', getGPS);
+getLatLong.addEventListener('click', getGPS);
 
 updates.addEventListener('click', popupName);
 
@@ -341,8 +341,8 @@ function talkToMe(text) {
 function getGPS(event) {
     event.preventDefault();
 
-    getLongLat.classList.remove('btn-danger');
-    getLongLat.classList.add('btn-primary');
+    getLatLong.classList.remove('btn-danger');
+    getLatLong.classList.add('btn-primary');
 
     if (localStorage.getItem('gps') === null) {
         if (savedGPS.length > 0) {
@@ -352,7 +352,7 @@ function getGPS(event) {
             localStorage.setItem('gps', JSON.stringify(savedGPS));
             setGPSandNotes(theWard, savedGPS, null);
         } else {
-            theWard.forEach(e => getLongLatFromAdrs(e.name, e.address1 + ', ' + e.city + ' TX', addAllToWard))
+            theWard.forEach(e => getLongLatFromAdrs(e.name, e.address1 + ', ' + e.city + ', TX', addAllToWard))
         }
     } else {
         savedGPS = JSON.parse(localStorage.getItem('gps'));
@@ -369,26 +369,12 @@ function addAllToWard(adrs, name, gps) {
 }
 
 async function getLongLatFromAdrs(name, adrs, addToWard) {
-    const url = `https://google-maps-geocoding.p.rapidapi.com/geocode/json?address=${adrs}&language=en`;
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '498ed225bamshcd02cf5559e10edp179d21jsn59b140b93ec5',
-            'X-RapidAPI-Host': 'google-maps-geocoding.p.rapidapi.com'
-        }
-    };
-
-    let ans = confirm("Did you know you were here?");
-    if (!ans) 
-        return;
-    try {
-	    const response = await fetch(url, options);
-	    const gps = await response.json();
-        getLongLat.innerText = `${name} GPS found`;
-        addToWard(adrs, name, gps);
-    } catch (error) {
-	    console.error(error);
-    }
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=AIzaSyAlw9hD3LG4VD9ebrp4uYMPD67KE4DsA3o`;
+    const response = await fetch(url, options);
+    const gps = await response.json();
+    getLatLong.innerText = `${name} GPS found`;
+    addToWard(adrs, name, gps);
+    gps.results[0].geometry.location.lat/lng
 }
 
 function getZeroGPS() {
@@ -400,7 +386,7 @@ function getZeroGPS() {
     if (empty.length === 0) return;
     empty.forEach(e => {
         displayUpdate(`${e.name} ${e.lat} ${e.long}`, e)
-        getLongLatFromAdrs(e.name, e.address1 + ', ' + e.city + ' TX', addOneToWard);
+        getLongLatFromAdrs(e.name, e.address1 + ', ' + e.city + ', TX', addOneToWard);
     });
 }
 

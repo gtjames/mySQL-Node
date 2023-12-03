@@ -48,8 +48,8 @@ li.query:hover           { background: rgba(var(--bs-danger-rgb), var(--bs-opaci
 
 label                    { padding: 0px 2px;}
 
-.ATOZ {background: url("../images/atoz.png") no-repeat right top;}
-.ZTOA {background: url("../images/ztoa.svg") no-repeat left bottom;}
+.ATOZ {background: url("../images/atoz.svg") no-repeat right top;}
+.ZTOA {background: url("../images/ztoa.svg") no-repeat right bottom;}
 
 .table-ward {
     --bs-table-color: #000;
@@ -74,3 +74,6 @@ label                    { padding: 0px 2px;}
     --bs-table-color-type: var(--bs-table-striped-color);
     --bs-table-bg-type: var(--bs-table-striped-bg);
 }
+
+
+thead tr:nth-child(1) th{position: sticky;top: 0;z-index: 10;}
