@@ -42,20 +42,20 @@
         </button>
         <ul class="dropdown-menu">
           <li><h1 class="dropdown-header">Search For:</h1></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Name"        placeholder="Name"                   ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Street"      placeholder="Street"                 ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Zip"         placeholder="Zip"                    ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="City"        placeholder="City"                   ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Age"         placeholder="Age"                    ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="BDay"        placeholder="BDay"                   ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Notes"       placeholder="Notes"                  ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Callings"    placeholder="Callings"               ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Priesthood"  placeholder="Priesthood"             ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="Recommend"   placeholder="Recommend Status"       ></li>
-          <li class="query"><input class="dropdown-item" type="text"   id="RecType"     placeholder="Recommend Type"         ></li>
-          <li class="query"><input class="dropdown-item" type="number" id="RecExpire"   placeholder="Rec Expiring in x days" ></li>
-          <li class="query"><input class="dropdown-item" type="number" id="MovedIn"     placeholder="Moved In (days ago)"    ></li>
-          <li class="query"><input class="dropdown-item" type="number" id="Baptized"    placeholder="Baptized (days ago)"    ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="name"       id="Name"        placeholder="Name"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="address1"   id="Address1"    placeholder="Address"                ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="zip"        id="Zip"         placeholder="Zip"                    ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="city"       id="City"        placeholder="City"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="age"        id="Age"         placeholder="Age"                    ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="birthday"   id="BDay"        placeholder="BDay"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="notes"      id="Notes"       placeholder="Notes"                  ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="callings"   id="Callings"    placeholder="Callings"               ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="priesthood" id="Priesthood"  placeholder="Priesthood"             ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="recommend"  id="Recommend"   placeholder="Recommend Status"       ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="recType"    id="RecType"     placeholder="Recommend Type"         ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="recExpire"  id="RecExpire"   placeholder="Rec Expiring in x days" ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="movedIn"    id="MovedIn"     placeholder="Moved In (days ago)"    ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="baptized"   id="Baptized"    placeholder="Baptized (days ago)"    ></li>
         </ul>
       </div>
 
@@ -65,20 +65,20 @@
           </button>
           <ul class="dropdown-menu">
               <li><h1 class="dropdown-header">Check For:</h1></li>
-              <li class="query"><input type="checkbox" id="EQ"        /><label for="EQ">Elders</label></li>
-              <li class="query"><input type="checkbox" id="RS"        /><label for="RS">Relief Society</label></li>
-              <li class="query"><input type="checkbox" id="Active"    /><label for="Active">Active</label>
-                                <input type="checkbox" id="NotActive" /><label for="NotActive">Not</label></li>
-              <li class="query"><input type="checkbox" id="Endowed"   /><label for="Endowed">Endowed</label>
-                                <input type="checkbox" id="NotEndowed"/><label for="NotEndowed">Not</label></li>
-              <li class="query"><input type="checkbox" id="Convert"   /><label for="Convert">Convert</label></li>
-              <li class="query"><input type="checkbox" id="RM"        /><label for="RM">RM</label></li>
-              <li class="query"><input type="checkbox" id="Institute" /><label for="Institute">Institute</label></li>
-              <li class="query"><input type="checkbox" id="Sealed"    /><label for="Sealed">Sealed</label></li>
-              <li class="query"><input type="checkbox" id="Bro"       /><label for="Bro">Ministering Bro</label>
-                                <input type="checkbox" id="NotBro"    /><label for="NotBro">Not</labe></li>
-              <li class="query"><input type="checkbox" id="Sis"       /><label for="Sis">Ministering Sis</label>
-                                <input type="checkbox" id="NotSis"    /><label for="NotSis">Not</label></li>
+              <li class="query"><input type="checkbox"                   id="EQ"        /><label for="EQ">Elders</label></li>
+              <li class="query"><input type="checkbox"                   id="RS"        /><label for="RS">Relief Society</label></li>
+              <li class="query"><input type="checkbox"                   id="Active"    /><label for="Active">Active</label>
+                                <input type="checkbox"                   id="NotActive" /><label for="NotActive">Not</label></li>
+              <li class="query"><input type="checkbox" name="endowed"    id="Endowed"   /><label for="Endowed">Endowed</label>
+                                <input type="checkbox"                   id="NotEndowed"/><label for="NotEndowed">Not</label></li>
+              <li class="query"><input type="checkbox" name="convert"    id="Convert"   /><label for="Convert">Convert</label></li>
+              <li class="query"><input type="checkbox" name="RM"         id="RM"        /><label for="RM">RM</label></li>
+              <li class="query"><input type="checkbox" name="institute"  id="Institute" /><label for="Institute">Institute</label></li>
+              <li class="query"><input type="checkbox" name="sealed"     id="Sealed"    /><label for="Sealed">Sealed</label></li>
+              <li class="query"><input type="checkbox"                   id="Bro"       /><label for="Bro">Ministering Bro</label>
+                                <input type="checkbox"                   id="NotBro"    /><label for="NotBro">Not</labe></li>
+              <li class="query"><input type="checkbox"                   id="Sis"       /><label for="Sis">Ministering Sis</label>
+                                <input type="checkbox"                   id="NotSis"    /><label for="NotSis">Not</label></li>
           </ul>
         </div>
 
@@ -120,6 +120,7 @@
 
     <button id="getLatLong"   class="btn btn-danger navbar-btn float-end ">GPS from Adrs</button>
     <button id="getZeroGPS"   class="btn btn-danger navbar-btn float-end ">Missing GPS</button>
+    <button id="newAddress"   class="btn btn-primary" type="button">New Member</button>
   </div>
 </nav>
 <!-- Modal -->

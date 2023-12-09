@@ -65,7 +65,7 @@ let cbNotBro    = document.querySelector("#NotBro");
 let cbNotSis    = document.querySelector("#NotSis");
 
 let txtName     = document.querySelector("#Name");
-let txtStreet   = document.querySelector("#Street");
+let txtAddress1 = document.querySelector("#Address1");
 let txtZip      = document.querySelector("#Zip");
 let txtCity     = document.querySelector("#City");
 let txtAge      = document.querySelector("#Age");
@@ -93,6 +93,7 @@ document.querySelector('#plot'       ).addEventListener('click', plotMembers);
 document.querySelector('#remove'     ).addEventListener('click', removeAllPoints);
 document.querySelector('#include'    ).addEventListener('click', includeAll);
 document.querySelector("#distList"   ).addEventListener('click', newDistances);
+document.querySelector("#newAddress" ).addEventListener('click', newAddress);
 
 let noGPS       = document.querySelector('#getZeroGPS'  );
 let getLatLong  = document.querySelector('#getLatLong'  );
@@ -215,7 +216,7 @@ function plotMembers(event) {
     if (cbNotSis.checked)       results = results.filter(r => !r.hasMinSiss);
 
     if (txtName.value.length        > 0) results = results.filter(r =>  matches(r.name,      txtName));
-    if (txtStreet.value.length      > 0) results = results.filter(r =>  matches(r.address,   txtStreet));
+    if (txtAddress1.value.length    > 0) results = results.filter(r =>  matches(r.address1,  txtAddress1));
     if (txtCity.value.length        > 0) results = results.filter(r =>  matches(r.city,      txtCity));
     if (txtZip.value.length         > 0) results = results.filter(r =>  r.zip.indexOf(txtZip.value) >= 0);
 
@@ -368,13 +369,47 @@ function addAllToWard(adrs, name, gps) {
     L.marker([gps.results[0].geometry.location.lng, gps.results[0].geometry.location.lng]).addTo(map);
 }
 
-async function getLongLatFromAdrs(name, adrs, addToWard) {
+function dummy(address, name, gps) {
+    console.log(gps);
+    let names = theWard.filter(g => g.name === name)
+    if (names.length > 0) {
+        names[0].address1 = address;
+        names[0].lat  = gps.results[0].geometry.location.lat;
+        names[0].long = gps.results[0].geometry.location.lng;
+
+        savedGPS.push({name: names[0].name, address1: names[0].address1, 
+            lat:  gps.results[0].geometry.location.lat,
+            long: gps.results[0].geometry.location.lng});
+    }
+}
+
+function newAddress() {
+    let names = document.getElementsByTagName("input")
+    let data = Array.from(names).reduce((newPerson, n) => { 
+        console.log(`${n.getAttribute('name')}: '${n.value}'`);
+        if (n.getAttribute('name') === null || n.value === 0) 
+            newPerson += ``;
+        else 
+            newPerson += `, "${n.getAttribute('name')}": "${n.value}"`; 
+        return newPerson
+        }, '' );
+    data = `{ "id": ${(new Date()).getMilliseconds()}, ` + data.substring(2) + " }";
+    data = JSON.parse(data);
+    let newGuy =  { ...data, ...{gender: '', baptized: '', callings: ''} }
+    newGuy.name += " first last";
+    newGuy.first = newGuy.name.split(' ')[0];
+    newGuy.last  = newGuy.name.split(' ')[1];
+    newGuy.name  = newGuy.last + ", " + newGuy.first
+    theWard.push( newGuy );
+    getLongLatFromAdrs(newGuy.name, newGuy.address1 + ", " +  newGuy.city, dummy);
+}
+
+async function getLongLatFromAdrs(name, address, addToWard) {
     const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=AIzaSyAlw9hD3LG4VD9ebrp4uYMPD67KE4DsA3o`;
-    const response = await fetch(url, options);
+    const response = await fetch(url);
     const gps = await response.json();
     getLatLong.innerText = `${name} GPS found`;
-    addToWard(adrs, name, gps);
-    gps.results[0].geometry.location.lat/lng
+    addToWard(address, name, gps);
 }
 
 function getZeroGPS() {

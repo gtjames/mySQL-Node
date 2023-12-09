@@ -187,7 +187,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 4 Feb 2012",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 109,
+            "preferredNameSort": 104,
             "ADDRESS_POSTAL_CODE": "76018-1630",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 0
@@ -215,14 +215,14 @@ let whoWhatWhere =
             "id": 8082798106,
             "BIRTHDAY": "3 Jan",
             "AGE": "22",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-449-5761",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 6 Feb 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2024",
             "PRIESTHOOD_OFFICE": "High Priest",
-            "preferredNameSort": 146,
+            "preferredNameSort": 140,
             "ADDRESS_POSTAL_CODE": "76013-8087",
             "INDIVIDUAL_EMAIL": "S.young12now@gmail.com",
             "birthdaySort": 1
@@ -235,7 +235,7 @@ let whoWhatWhere =
             "CALLINGS": "",
             "ageSort": 22,
             "moveInDateSort": "20231108",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 4,
             "templeRecommendExpirationDateSort": "20240131",
@@ -257,7 +257,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "29 Jan 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 135,
+            "preferredNameSort": 128,
             "ADDRESS_POSTAL_CODE": "76016-1501",
             "INDIVIDUAL_EMAIL": "Moeakiisawesome@gmail.com",
             "birthdaySort": 2
@@ -285,14 +285,14 @@ let whoWhatWhere =
             "id": 61753695712,
             "BIRTHDAY": "7 Jan",
             "AGE": "23",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-727-3289",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "23 Apr 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 22,
+            "preferredNameSort": 21,
             "ADDRESS_POSTAL_CODE": "76012-5527",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 3
@@ -327,7 +327,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "31 May 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 28,
+            "preferredNameSort": 26,
             "ADDRESS_POSTAL_CODE": "76019-1000",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 4
@@ -362,7 +362,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Jan 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 88,
+            "preferredNameSort": 83,
             "ADDRESS_POSTAL_CODE": "75104-2335",
             "INDIVIDUAL_EMAIL": "nelmskalb@outlook.com",
             "birthdaySort": 5
@@ -397,7 +397,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "10 Jan 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 142,
+            "preferredNameSort": 135,
             "ADDRESS_POSTAL_CODE": "76013-6908",
             "INDIVIDUAL_EMAIL": "spencerwh1@yahoo.com",
             "birthdaySort": 6
@@ -432,7 +432,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "31 Jan 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 13,
+            "preferredNameSort": 12,
             "ADDRESS_POSTAL_CODE": "76016-3132",
             "INDIVIDUAL_EMAIL": "thesixthbear@gmail.com",
             "birthdaySort": 7
@@ -467,7 +467,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 May 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Teacher",
-            "preferredNameSort": 101,
+            "preferredNameSort": 96,
             "ADDRESS_POSTAL_CODE": "76001-7590",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 8
@@ -477,7 +477,7 @@ let whoWhatWhere =
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "No",
-            "CALLINGS": "<span class=\"custom-report-position\">Activities Committee Member</span>",
+            "CALLINGS": "<span class=\"custom-report-position\">Elders Quorum Second Counselor</span><span class=\"custom-report-position\">Activities Committee Member</span>",
             "ageSort": 23,
             "moveInDateSort": "20230329",
             "TEMPLE_RECOMMEND_STATUS": "Expired",
@@ -495,14 +495,14 @@ let whoWhatWhere =
             "id": 6305948932,
             "BIRTHDAY": "14 Jan",
             "AGE": "23",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-939-0223",
             "ADDRESS_CITY": "Grand Prairie",
             "BAPTISM_DATE": "19 Jan 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2018",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 150,
+            "preferredNameSort": 144,
             "ADDRESS_POSTAL_CODE": "75050-5181",
             "INDIVIDUAL_EMAIL": "timward830@gmail.com",
             "birthdaySort": 9
@@ -537,7 +537,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "22 Feb 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 32,
+            "preferredNameSort": 30,
             "ADDRESS_POSTAL_CODE": "76017-0803",
             "INDIVIDUAL_EMAIL": "xieezra@gmail.com",
             "birthdaySort": 10
@@ -572,7 +572,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Nov 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 71,
+            "preferredNameSort": 66,
             "ADDRESS_POSTAL_CODE": "76063-4875",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 11
@@ -607,7 +607,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 3 Oct 2021",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2022",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 68,
+            "preferredNameSort": 63,
             "ADDRESS_POSTAL_CODE": "76006-3942",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 12
@@ -635,14 +635,14 @@ let whoWhatWhere =
             "id": 67053794809,
             "BIRTHDAY": "20 Jan",
             "AGE": "18",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "No",
-            "INDIVIDUAL_PHONE": "956-559-6342",
+            "INDIVIDUAL_PHONE": "956-559-6342-bad",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "16 Sep 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 43,
+            "preferredNameSort": 40,
             "ADDRESS_POSTAL_CODE": "76015-3459",
             "INDIVIDUAL_EMAIL": "malumagonzalez2005@gmail.com",
             "birthdaySort": 13
@@ -650,7 +650,7 @@ let whoWhatWhere =
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Hollon, Natalie / Bresee, Nichole Nancy",
+            "VISITING_TEACHERS": "Bresee, Nichole Nancy / Hollon, Natalie",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 23,
@@ -677,7 +677,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "27 Jan 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 104,
+            "preferredNameSort": 99,
             "ADDRESS_POSTAL_CODE": "76017-0762",
             "INDIVIDUAL_EMAIL": "donna5proctor@hotmail.com",
             "birthdaySort": 14
@@ -712,7 +712,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "24 Mar 2018",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 112,
+            "preferredNameSort": 107,
             "ADDRESS_POSTAL_CODE": "75054-6848",
             "INDIVIDUAL_EMAIL": "louisrio007@gmail.com",
             "birthdaySort": 15
@@ -747,7 +747,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Apr 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 26,
+            "preferredNameSort": 24,
             "ADDRESS_POSTAL_CODE": "76016-4734",
             "INDIVIDUAL_EMAIL": "emmacraig57@gmail.com",
             "birthdaySort": 16
@@ -760,7 +760,7 @@ let whoWhatWhere =
             "CALLINGS": "",
             "ageSort": 21,
             "moveInDateSort": "20230518",
-            "TEMPLE_RECOMMEND_STATUS": "Expiring this month",
+            "TEMPLE_RECOMMEND_STATUS": "Expired less than 1 month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 3,
             "templeRecommendExpirationDateSort": "20231130",
@@ -782,7 +782,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 6 Feb 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2023",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 91,
+            "preferredNameSort": 86,
             "ADDRESS_POSTAL_CODE": "76011-3496",
             "INDIVIDUAL_EMAIL": "preston.s.norris@gmail.com",
             "birthdaySort": 17
@@ -887,7 +887,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 Oct 2015",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2022",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 15,
+            "preferredNameSort": 14,
             "ADDRESS_POSTAL_CODE": "76084-1141",
             "INDIVIDUAL_EMAIL": "Meanbean8180@gmail.com",
             "birthdaySort": 20
@@ -922,7 +922,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 Aug 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 78,
+            "preferredNameSort": 73,
             "ADDRESS_POSTAL_CODE": "76016-5433",
             "INDIVIDUAL_EMAIL": "mit15002@byui.edu",
             "birthdaySort": 21
@@ -957,7 +957,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 Feb 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 138,
+            "preferredNameSort": 131,
             "ADDRESS_POSTAL_CODE": "76010-8721",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 22
@@ -965,12 +965,12 @@ let whoWhatWhere =
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Lebbie, Emmanuella / Gilson, Amanda",
+            "VISITING_TEACHERS": "Gilson, Amanda / Lebbie, Emmanuella",
             "IS_CONVERT": "Yes",
             "CALLINGS": "<span class=\"custom-report-position\">Bulletin Board Specialist</span>",
             "ageSort": 21,
             "moveInDateSort": "20230114",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "No",
             "priesthoodOfficeSort": null,
             "templeRecommendExpirationDateSort": "20240131",
@@ -985,14 +985,14 @@ let whoWhatWhere =
             "id": 58207296139,
             "BIRTHDAY": "13 Feb",
             "AGE": "21",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-705-5950",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "14 Jan 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 55,
+            "preferredNameSort": 52,
             "ADDRESS_POSTAL_CODE": "76013-3046",
             "INDIVIDUAL_EMAIL": "lh977243@gmail.com",
             "birthdaySort": 23
@@ -1027,7 +1027,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 Nov 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Deacon",
-            "preferredNameSort": 148,
+            "preferredNameSort": 142,
             "ADDRESS_POSTAL_CODE": "76010-4310",
             "INDIVIDUAL_EMAIL": "izumbrennen@gmail.com",
             "birthdaySort": 24
@@ -1062,7 +1062,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 7 Apr 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 57,
+            "preferredNameSort": 53,
             "ADDRESS_POSTAL_CODE": "76012-3804",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 25
@@ -1097,7 +1097,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 Mar 2019",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 64,
+            "preferredNameSort": 59,
             "ADDRESS_POSTAL_CODE": "76016-4838",
             "INDIVIDUAL_EMAIL": null,
             "birthdaySort": 26
@@ -1132,7 +1132,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Mar 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2017",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 127,
+            "preferredNameSort": 120,
             "ADDRESS_POSTAL_CODE": "76010-5605",
             "INDIVIDUAL_EMAIL": "nicolelhoelzl@gmail.com",
             "birthdaySort": 27
@@ -1167,7 +1167,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "24 Mar 2012",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 129,
+            "preferredNameSort": 122,
             "ADDRESS_POSTAL_CODE": "76013-6937",
             "INDIVIDUAL_EMAIL": "jordanltaggart227@gmail.com",
             "birthdaySort": 28
@@ -1202,7 +1202,7 @@ let whoWhatWhere =
             "BAPTISM_DATE": "26 Mar 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 87,
+            "preferredNameSort": 82,
             "ADDRESS_POSTAL_CODE": "75104-2335",
             "INDIVIDUAL_EMAIL": "job.nelms@gmail.com",
             "birthdaySort": 29
@@ -1245,7 +1245,7 @@ let whoWhatWhere =
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Najera, Andrea Lopez / King, Ashley",
+            "VISITING_TEACHERS": "King, Ashley / Najera, Andrea Lopez",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 18,
@@ -1265,14 +1265,14 @@ let whoWhatWhere =
             "id": 16829575358,
             "BIRTHDAY": "3 Mar",
             "AGE": "18",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-913-8037",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 3 Mar 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Mar 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 51,
+            "preferredNameSort": 48,
             "ADDRESS_POSTAL_CODE": "76016-3826",
             "INDIVIDUAL_EMAIL": "Lorelaihofer@yahoo.com",
             "birthdaySort": 31
@@ -1307,10 +1307,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "13 Apr 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2019",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 36,
+            "preferredNameSort": 34,
             "ADDRESS_POSTAL_CODE": "76001-5039",
             "INDIVIDUAL_EMAIL": "snippiestshrimp@gmail.com",
-            "birthdaySort": 33
+            "birthdaySort": 32
         },
         {
             "groupByUnitName": null,
@@ -1342,10 +1342,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 Mar 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 103,
+            "preferredNameSort": 98,
             "ADDRESS_POSTAL_CODE": "76013-1441",
             "INDIVIDUAL_EMAIL": "raiderk99@hotmail.com",
-            "birthdaySort": 34
+            "birthdaySort": 33
         },
         {
             "groupByUnitName": null,
@@ -1355,7 +1355,7 @@ let whoWhatWhere =
             "CALLINGS": "<span class=\"custom-report-position\">Elders Quorum President</span>",
             "ageSort": 28,
             "moveInDateSort": "20161113",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 4,
             "templeRecommendExpirationDateSort": "20240131",
@@ -1377,15 +1377,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "22 Mar 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 48,
+            "preferredNameSort": 45,
             "ADDRESS_POSTAL_CODE": "76012-4025",
             "INDIVIDUAL_EMAIL": "athilton@att.net",
-            "birthdaySort": 35
+            "birthdaySort": 34
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Najera, Andrea Lopez / King, Ashley",
+            "VISITING_TEACHERS": "King, Ashley / Najera, Andrea Lopez",
             "IS_CONVERT": "No",
             "CALLINGS": "<span class=\"custom-report-position\">Relief Society First Counselor</span>",
             "ageSort": 20,
@@ -1405,17 +1405,17 @@ let whoWhatWhere =
             "id": 9487334064,
             "BIRTHDAY": "18 Mar",
             "AGE": "20",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "682-218-9397",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "19 Mar 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Mar 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 50,
+            "preferredNameSort": 47,
             "ADDRESS_POSTAL_CODE": "76016-3826",
             "INDIVIDUAL_EMAIL": "imogenhofer@yahoo.com",
-            "birthdaySort": 36
+            "birthdaySort": 35
         },
         {
             "groupByUnitName": null,
@@ -1440,22 +1440,22 @@ let whoWhatWhere =
             "id": 1948193938,
             "BIRTHDAY": "24 Mar",
             "AGE": "28",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "469-494-7011",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "29 Mar 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 84,
+            "preferredNameSort": 79,
             "ADDRESS_POSTAL_CODE": "76011-1140",
             "INDIVIDUAL_EMAIL": "kaibear808@yahoo.com",
-            "birthdaySort": 37
+            "birthdaySort": 36
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": null,
-            "VISITING_TEACHERS": "Huang, Coco / Davila, Daisy Belen",
+            "VISITING_TEACHERS": "Davila, Daisy Belen / Huang, Coco",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 27,
@@ -1482,10 +1482,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 8 May 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 90,
+            "preferredNameSort": 85,
             "ADDRESS_POSTAL_CODE": "76063",
             "INDIVIDUAL_EMAIL": "enibarger@gmail.com",
-            "birthdaySort": 38
+            "birthdaySort": 37
         },
         {
             "groupByUnitName": null,
@@ -1510,17 +1510,17 @@ let whoWhatWhere =
             "id": 28414981370,
             "BIRTHDAY": "1 Apr",
             "AGE": "30",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-308-9135",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "22 Dec 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2019",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 41,
+            "preferredNameSort": 38,
             "ADDRESS_POSTAL_CODE": "76011-3906",
             "INDIVIDUAL_EMAIL": "mattgilstrap@yahoo.com",
-            "birthdaySort": 39
+            "birthdaySort": 38
         },
         {
             "groupByUnitName": null,
@@ -1552,15 +1552,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 Mar 2017",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 116,
+            "preferredNameSort": 111,
             "ADDRESS_POSTAL_CODE": "76018",
             "INDIVIDUAL_EMAIL": "Jesusrubio@gmail.com",
-            "birthdaySort": 40
+            "birthdaySort": 39
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Romero, Layla America / Namahoe, Kaimana Yoshiko / Siddall, Autumn Mary",
+            "VISITING_TEACHERS": "Siddall, Autumn Mary / Namahoe, Kaimana Yoshiko / Romero, Layla America",
             "IS_CONVERT": "No",
             "CALLINGS": "<span class=\"custom-report-position\">Relief Society President</span><span class=\"custom-report-position\">Accompanist</span>",
             "ageSort": 26,
@@ -1587,10 +1587,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Apr 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2025",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 49,
+            "preferredNameSort": 46,
             "ADDRESS_POSTAL_CODE": "76012-4031",
             "INDIVIDUAL_EMAIL": "jeshilton100@gmail.com",
-            "birthdaySort": 41
+            "birthdaySort": 40
         },
         {
             "groupByUnitName": null,
@@ -1622,10 +1622,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "22 Oct 2016",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2017",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 136,
+            "preferredNameSort": 129,
             "ADDRESS_POSTAL_CODE": "76010-4453",
             "INDIVIDUAL_EMAIL": "Shengva848@gmail.com",
-            "birthdaySort": 42
+            "birthdaySort": 41
         },
         {
             "groupByUnitName": null,
@@ -1650,22 +1650,22 @@ let whoWhatWhere =
             "id": 28245282148,
             "BIRTHDAY": "13 Apr",
             "AGE": "31",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-300-5811",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "28 Sep 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2025",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 47,
+            "preferredNameSort": 44,
             "ADDRESS_POSTAL_CODE": "76017-6456",
             "INDIVIDUAL_EMAIL": "jeremyhernandez261@gmail.com",
-            "birthdaySort": 43
+            "birthdaySort": 42
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": null,
-            "VISITING_TEACHERS": "James, Tari Marie / Moore, Kjirstina / Badger, Emily Elizabeth",
+            "VISITING_TEACHERS": "Badger, Emily Elizabeth / Moore, Kjirstina / James, Tari Marie",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
             "ageSort": 18,
@@ -1692,10 +1692,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 3 Jul 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 114,
+            "preferredNameSort": 109,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": "laylaromero95@gmail.com",
-            "birthdaySort": 44
+            "birthdaySort": 43
         },
         {
             "groupByUnitName": null,
@@ -1727,10 +1727,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "20 Nov 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 119,
+            "preferredNameSort": 114,
             "ADDRESS_POSTAL_CODE": "76063",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 45
+            "birthdaySort": 44
         },
         {
             "groupByUnitName": null,
@@ -1762,10 +1762,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "19 Apr 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2018",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 99,
+            "preferredNameSort": 94,
             "ADDRESS_POSTAL_CODE": "76017-0759",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 46
+            "birthdaySort": 45
         },
         {
             "groupByUnitName": null,
@@ -1797,15 +1797,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Feb 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2019",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 33,
+            "preferredNameSort": 31,
             "ADDRESS_POSTAL_CODE": "76014-1142",
             "INDIVIDUAL_EMAIL": "duncanj67@yahoo.com",
-            "birthdaySort": 47
+            "birthdaySort": 46
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Hilton, Jessica / Collier, Jessi Aleksandra",
+            "VISITING_TEACHERS": "Collier, Jessi Aleksandra / Hilton, Jessica",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 27,
@@ -1832,10 +1832,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "22 May 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2023",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 11,
+            "preferredNameSort": 10,
             "ADDRESS_POSTAL_CODE": "76001-5109",
             "INDIVIDUAL_EMAIL": "emily.badger14@yahoo.com",
-            "birthdaySort": 48
+            "birthdaySort": 47
         },
         {
             "groupByUnitName": null,
@@ -1867,10 +1867,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 5 May 1962",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2024",
             "PRIESTHOOD_OFFICE": "High Priest",
-            "preferredNameSort": 58,
+            "preferredNameSort": 54,
             "ADDRESS_POSTAL_CODE": "76060-5620",
             "INDIVIDUAL_EMAIL": "gtjames@gmail.com",
-            "birthdaySort": 49
+            "birthdaySort": 48
         },
         {
             "groupByUnitName": null,
@@ -1902,10 +1902,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Jun 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 144,
+            "preferredNameSort": 138,
             "ADDRESS_POSTAL_CODE": "76006-6621",
             "INDIVIDUAL_EMAIL": "brandon@winzenzfamily.net",
-            "birthdaySort": 50
+            "birthdaySort": 49
         },
         {
             "groupByUnitName": null,
@@ -1937,10 +1937,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 2 Jun 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 18,
+            "preferredNameSort": 17,
             "ADDRESS_POSTAL_CODE": "76015-3458",
             "INDIVIDUAL_EMAIL": "dallin.beus@yahoo.com",
-            "birthdaySort": 51
+            "birthdaySort": 50
         },
         {
             "groupByUnitName": null,
@@ -1972,10 +1972,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "26 May 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 42,
+            "preferredNameSort": 39,
             "ADDRESS_POSTAL_CODE": "76012-2048",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 52
+            "birthdaySort": 51
         },
         {
             "groupByUnitName": null,
@@ -2007,15 +2007,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 May 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 65,
+            "preferredNameSort": 60,
             "ADDRESS_POSTAL_CODE": "76063-5032",
             "INDIVIDUAL_EMAIL": "jojoladybugg@att.net",
-            "birthdaySort": 53
+            "birthdaySort": 52
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Padovich, Kacie / Oyebanji, Opeyemi Odunayo",
+            "VISITING_TEACHERS": "Oyebanji, Opeyemi Odunayo / Padovich, Kacie",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 19,
@@ -2042,10 +2042,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "12 Jan 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2022",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 126,
+            "preferredNameSort": 119,
             "ADDRESS_POSTAL_CODE": "76063",
             "INDIVIDUAL_EMAIL": "yabsirastucki@gmail.com",
-            "birthdaySort": 54
+            "birthdaySort": 53
         },
         {
             "groupByUnitName": null,
@@ -2077,10 +2077,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 4 Jun 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 105,
+            "preferredNameSort": 100,
             "ADDRESS_POSTAL_CODE": "76036-3855",
             "INDIVIDUAL_EMAIL": "kaydenpryor6@gmail.com",
-            "birthdaySort": 55
+            "birthdaySort": 54
         },
         {
             "groupByUnitName": null,
@@ -2112,10 +2112,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Apr 2015",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 62,
+            "preferredNameSort": 57,
             "ADDRESS_POSTAL_CODE": "75051-1033",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 56
+            "birthdaySort": 55
         },
         {
             "groupByUnitName": null,
@@ -2147,10 +2147,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 May 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2018",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 39,
+            "preferredNameSort": 36,
             "ADDRESS_POSTAL_CODE": "76012",
             "INDIVIDUAL_EMAIL": "kateli7474@yahoo.com",
-            "birthdaySort": 58
+            "birthdaySort": 56
         },
         {
             "groupByUnitName": null,
@@ -2182,10 +2182,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 6 Aug 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 96,
+            "preferredNameSort": 91,
             "ADDRESS_POSTAL_CODE": "76001-8101",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 59
+            "birthdaySort": 57
         },
         {
             "groupByUnitName": null,
@@ -2217,10 +2217,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "26 Jun 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Aug 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 131,
+            "preferredNameSort": 124,
             "ADDRESS_POSTAL_CODE": "76016-5127",
             "INDIVIDUAL_EMAIL": "ammonations56@gmail.com",
-            "birthdaySort": 60
+            "birthdaySort": 58
         },
         {
             "groupByUnitName": null,
@@ -2252,45 +2252,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 4 Jun 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 149,
+            "preferredNameSort": 143,
             "ADDRESS_POSTAL_CODE": "76060-5616",
             "INDIVIDUAL_EMAIL": "billiam5269@gmail.com",
-            "birthdaySort": 61
-        },
-        {
-            "groupByUnitName": null,
-            "TEMPLE_RECOMMEND_TYPE": null,
-            "VISITING_TEACHERS": "",
-            "IS_CONVERT": "Yes",
-            "CALLINGS": "",
-            "ageSort": 26,
-            "moveInDateSort": "20201011",
-            "TEMPLE_RECOMMEND_STATUS": null,
-            "IS_SEALED_TO_PARENTS": "No",
-            "priesthoodOfficeSort": 3,
-            "templeRecommendExpirationDateSort": null,
-            "MOVE_IN_DATE": "11 Oct 2020",
-            "IS_ENDOWED": "No",
-            "baptismDateSort": "20170506",
-            "IS_RETURNED_MISSIONARY": "No",
-            "PREFERRED_NAME": "Cole, Aaron Anthony",
-            "ADDRESS_STREET_1": "2615 River Hills Cir",
-            "ADDRESS_STREET_2": "Apt 1706",
-            "GENDER": "M",
-            "id": 31464481324,
-            "BIRTHDAY": "2 Jun",
-            "AGE": "26",
-            "HOME_TEACHERS": "",
-            "IS_ATTENDING_INSTITUTE": "No",
-            "INDIVIDUAL_PHONE": "972-537-8858",
-            "ADDRESS_CITY": "Arlington",
-            "BAPTISM_DATE": " 6 May 2017",
-            "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
-            "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 24,
-            "ADDRESS_POSTAL_CODE": "76006-3906",
-            "INDIVIDUAL_EMAIL": "coleaaronant@gmail.com",
-            "birthdaySort": 62
+            "birthdaySort": 59
         },
         {
             "groupByUnitName": null,
@@ -2315,17 +2280,17 @@ let whoWhatWhere =
             "id": 20528401860,
             "BIRTHDAY": "2 Jun",
             "AGE": "20",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-521-6523",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "11 Jun 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Aug 2025",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 95,
+            "preferredNameSort": 90,
             "ADDRESS_POSTAL_CODE": "76002-5011",
             "INDIVIDUAL_EMAIL": "kcpav02@gmail.com",
-            "birthdaySort": 63
+            "birthdaySort": 60
         },
         {
             "groupByUnitName": null,
@@ -2357,10 +2322,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "18 Feb 2017",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 92,
+            "preferredNameSort": 87,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 64
+            "birthdaySort": 61
         },
         {
             "groupByUnitName": null,
@@ -2392,10 +2357,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "18 Feb 2017",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 93,
+            "preferredNameSort": 88,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 65
+            "birthdaySort": 62
         },
         {
             "groupByUnitName": null,
@@ -2427,10 +2392,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Jan 2020",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2021",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 122,
+            "preferredNameSort": 116,
             "ADDRESS_POSTAL_CODE": "76013-6939",
             "INDIVIDUAL_EMAIL": "siddallautumn@gmail.com",
-            "birthdaySort": 66
+            "birthdaySort": 63
         },
         {
             "groupByUnitName": null,
@@ -2455,17 +2420,17 @@ let whoWhatWhere =
             "id": 48899857956,
             "BIRTHDAY": "8 Jun",
             "AGE": "20",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-233-1365",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "10 Apr 2022",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2025",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 29,
+            "preferredNameSort": 27,
             "ADDRESS_POSTAL_CODE": "76014-3147",
             "INDIVIDUAL_EMAIL": "dbdavila78@gmail.com",
-            "birthdaySort": 67
+            "birthdaySort": 64
         },
         {
             "groupByUnitName": null,
@@ -2497,10 +2462,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "24 Sep 2015",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 125,
+            "preferredNameSort": 118,
             "ADDRESS_POSTAL_CODE": "76006-3554",
             "INDIVIDUAL_EMAIL": "Cadystuckey@gmail.com",
-            "birthdaySort": 68
+            "birthdaySort": 65
         },
         {
             "groupByUnitName": null,
@@ -2535,7 +2500,7 @@ let whoWhatWhere =
             "preferredNameSort": 7,
             "ADDRESS_POSTAL_CODE": "76018-2014",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 69
+            "birthdaySort": 66
         },
         {
             "groupByUnitName": null,
@@ -2567,20 +2532,20 @@ let whoWhatWhere =
             "BAPTISM_DATE": "18 Jan 2020",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2024",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 44,
+            "preferredNameSort": 41,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": "Miguii062403@gmail.com",
-            "birthdaySort": 70
+            "birthdaySort": 67
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Padovich, Kacie / Oyebanji, Opeyemi Odunayo",
+            "VISITING_TEACHERS": "Oyebanji, Opeyemi Odunayo / Padovich, Kacie",
             "IS_CONVERT": "Yes",
             "CALLINGS": "<span class=\"custom-report-position\">Activities Committee Member</span>",
             "ageSort": 22,
             "moveInDateSort": "20230129",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "No",
             "priesthoodOfficeSort": null,
             "templeRecommendExpirationDateSort": "20240131",
@@ -2595,17 +2560,17 @@ let whoWhatWhere =
             "id": 58727996154,
             "BIRTHDAY": "24 Jun",
             "AGE": "22",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "510-833-1808",
             "ADDRESS_CITY": "Kennedale",
             "BAPTISM_DATE": "28 Jan 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 70,
+            "preferredNameSort": 65,
             "ADDRESS_POSTAL_CODE": "76060-5464",
             "INDIVIDUAL_EMAIL": "mmacones24@gmail.com",
-            "birthdaySort": 71
+            "birthdaySort": 68
         },
         {
             "groupByUnitName": null,
@@ -2637,10 +2602,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 7 Jul 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2017",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 118,
+            "preferredNameSort": 113,
             "ADDRESS_POSTAL_CODE": "76010-1727",
             "INDIVIDUAL_EMAIL": "jruiz@theventureonline.com",
-            "birthdaySort": 72
+            "birthdaySort": 69
         },
         {
             "groupByUnitName": null,
@@ -2672,10 +2637,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "14 May 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 147,
+            "preferredNameSort": 141,
             "ADDRESS_POSTAL_CODE": "76010-7722",
             "INDIVIDUAL_EMAIL": "faithnicolez@sbcglobal.net",
-            "birthdaySort": 73
+            "birthdaySort": 70
         },
         {
             "groupByUnitName": null,
@@ -2707,10 +2672,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "29 Jun 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Mar 2018",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 117,
+            "preferredNameSort": 112,
             "ADDRESS_POSTAL_CODE": "76017-5924",
             "INDIVIDUAL_EMAIL": "alexisr544@gmail.com",
-            "birthdaySort": 74
+            "birthdaySort": 71
         },
         {
             "groupByUnitName": null,
@@ -2742,10 +2707,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "20 Jul 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2024",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 111,
+            "preferredNameSort": 106,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": "Rigbymonsters@gmail.com",
-            "birthdaySort": 75
+            "birthdaySort": 72
         },
         {
             "groupByUnitName": null,
@@ -2755,7 +2720,7 @@ let whoWhatWhere =
             "CALLINGS": "<span class=\"custom-report-position\">Ward Executive Secretary</span>",
             "ageSort": 25,
             "moveInDateSort": "20211009",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 4,
             "templeRecommendExpirationDateSort": "20240131",
@@ -2772,15 +2737,15 @@ let whoWhatWhere =
             "AGE": "25",
             "HOME_TEACHERS": "Baclawski, Mark / Rigby, James Michael Andrew",
             "IS_ATTENDING_INSTITUTE": "Yes",
-            "INDIVIDUAL_PHONE": "214-280-7033",
+            "INDIVIDUAL_PHONE": "+12142807033",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 2 Jul 2006",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 73,
+            "preferredNameSort": 68,
             "ADDRESS_POSTAL_CODE": "76017-1361",
             "INDIVIDUAL_EMAIL": "njmcalister@live.com",
-            "birthdaySort": 76
+            "birthdaySort": 73
         },
         {
             "groupByUnitName": null,
@@ -2812,10 +2777,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 7 Aug 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2021",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 106,
+            "preferredNameSort": 101,
             "ADDRESS_POSTAL_CODE": "76006-4264",
             "INDIVIDUAL_EMAIL": "alpuempel@gmail.com",
-            "birthdaySort": 77
+            "birthdaySort": 74
         },
         {
             "groupByUnitName": null,
@@ -2847,10 +2812,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 2 Mar 2019",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 16,
+            "preferredNameSort": 15,
             "ADDRESS_POSTAL_CODE": "76063",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 78
+            "birthdaySort": 75
         },
         {
             "groupByUnitName": null,
@@ -2877,15 +2842,15 @@ let whoWhatWhere =
             "AGE": "27",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
-            "INDIVIDUAL_PHONE": "281-466-2639",
+            "INDIVIDUAL_PHONE": "281-466-2639-bad",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "10 Jul 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 14,
+            "preferredNameSort": 13,
             "ADDRESS_POSTAL_CODE": "76015-3932",
             "INDIVIDUAL_EMAIL": "arius.kira3@gmail.com",
-            "birthdaySort": 79
+            "birthdaySort": 76
         },
         {
             "groupByUnitName": null,
@@ -2917,15 +2882,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "13 Jul 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 53,
+            "preferredNameSort": 50,
             "ADDRESS_POSTAL_CODE": "76006-6149",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 80
+            "birthdaySort": 77
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": null,
-            "VISITING_TEACHERS": "Padovich, Kacie / Oyebanji, Opeyemi Odunayo",
+            "VISITING_TEACHERS": "Oyebanji, Opeyemi Odunayo / Padovich, Kacie",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 30,
@@ -2952,10 +2917,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 4 Aug 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 79,
+            "preferredNameSort": 74,
             "ADDRESS_POSTAL_CODE": "76010-4623",
             "INDIVIDUAL_EMAIL": "ppd859@yahoo.com",
-            "birthdaySort": 81
+            "birthdaySort": 78
         },
         {
             "groupByUnitName": null,
@@ -2990,7 +2955,7 @@ let whoWhatWhere =
             "preferredNameSort": 0,
             "ADDRESS_POSTAL_CODE": "75050-8713",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 82
+            "birthdaySort": 79
         },
         {
             "groupByUnitName": null,
@@ -3000,7 +2965,7 @@ let whoWhatWhere =
             "CALLINGS": "<span class=\"custom-report-position\">Sunday School President</span>",
             "ageSort": 31,
             "moveInDateSort": "20211107",
-            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring this month",
             "IS_SEALED_TO_PARENTS": "No",
             "priesthoodOfficeSort": 3,
             "templeRecommendExpirationDateSort": "20231231",
@@ -3015,17 +2980,17 @@ let whoWhatWhere =
             "id": 46735640921,
             "BIRTHDAY": "22 Jul",
             "AGE": "31",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817 247-8419",
             "ADDRESS_CITY": "Kennedale",
             "BAPTISM_DATE": "23 Oct 2021",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2023",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 120,
+            "preferredNameSort": 115,
             "ADDRESS_POSTAL_CODE": "76060",
             "INDIVIDUAL_EMAIL": "Devnsarolia@gmail.com",
-            "birthdaySort": 83
+            "birthdaySort": 80
         },
         {
             "groupByUnitName": null,
@@ -3057,10 +3022,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 Aug 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2017",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 67,
+            "preferredNameSort": 62,
             "ADDRESS_POSTAL_CODE": "76010-6307",
             "INDIVIDUAL_EMAIL": "bellelittle99@gmail.com",
-            "birthdaySort": 84
+            "birthdaySort": 81
         },
         {
             "groupByUnitName": null,
@@ -3085,17 +3050,17 @@ let whoWhatWhere =
             "id": 27639546735,
             "BIRTHDAY": "30 Jul",
             "AGE": "26",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "406-480-5711",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 9 Feb 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Mar 2021",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 72,
+            "preferredNameSort": 67,
             "ADDRESS_POSTAL_CODE": "76016-2616",
             "INDIVIDUAL_EMAIL": "mtsaltfish@hotmail.com",
-            "birthdaySort": 85
+            "birthdaySort": 82
         },
         {
             "groupByUnitName": null,
@@ -3127,20 +3092,20 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Feb 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Mar 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 37,
+            "preferredNameSort": 35,
             "ADDRESS_POSTAL_CODE": "76014-1142",
             "INDIVIDUAL_EMAIL": "mauricefiame02@gmail.com",
-            "birthdaySort": 86
+            "birthdaySort": 83
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Lebbie, Emmanuella / Gilson, Amanda",
+            "VISITING_TEACHERS": "Gilson, Amanda / Lebbie, Emmanuella",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 18,
             "moveInDateSort": "20230912",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": null,
             "templeRecommendExpirationDateSort": "20240131",
@@ -3162,10 +3127,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "14 Sep 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 30,
+            "preferredNameSort": 28,
             "ADDRESS_POSTAL_CODE": "76013-2511",
             "INDIVIDUAL_EMAIL": "steven.denning007@gmail.com",
-            "birthdaySort": 87
+            "birthdaySort": 84
         },
         {
             "groupByUnitName": null,
@@ -3184,23 +3149,23 @@ let whoWhatWhere =
             "baptismDateSort": "20231104",
             "IS_RETURNED_MISSIONARY": "No",
             "PREFERRED_NAME": "Doerfler, Alexander",
-            "ADDRESS_STREET_1": "700 W Mitchell Cir",
-            "ADDRESS_STREET_2": null,
+            "ADDRESS_STREET_1": "750 W Mitchell Cir",
+            "ADDRESS_STREET_2": "Apt 714",
             "GENDER": "M",
             "id": 68644194441,
             "BIRTHDAY": "7 Aug",
             "AGE": "23",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "225-290-1385",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 4 Nov 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2024",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 31,
+            "preferredNameSort": 29,
             "ADDRESS_POSTAL_CODE": "76013-2511",
             "INDIVIDUAL_EMAIL": "alexanderderf@gmail.com",
-            "birthdaySort": 88
+            "birthdaySort": 85
         },
         {
             "groupByUnitName": null,
@@ -3232,10 +3197,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "20 Aug 2006",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 108,
+            "preferredNameSort": 103,
             "ADDRESS_POSTAL_CODE": "76010-1197",
             "INDIVIDUAL_EMAIL": "jaredreber98@gmail.com",
-            "birthdaySort": 89
+            "birthdaySort": 86
         },
         {
             "groupByUnitName": null,
@@ -3267,10 +3232,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "22 Mar 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 81,
+            "preferredNameSort": 76,
             "ADDRESS_POSTAL_CODE": "76017-2721",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 90
+            "birthdaySort": 87
         },
         {
             "groupByUnitName": null,
@@ -3302,10 +3267,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "24 Jan 2015",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Unordained",
-            "preferredNameSort": 97,
+            "preferredNameSort": 92,
             "ADDRESS_POSTAL_CODE": "76130",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 91
+            "birthdaySort": 88
         },
         {
             "groupByUnitName": null,
@@ -3315,7 +3280,7 @@ let whoWhatWhere =
             "CALLINGS": "<span class=\"custom-report-position\">Activities Committee Member</span>",
             "ageSort": 28,
             "moveInDateSort": "20221210",
-            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring this month",
             "IS_SEALED_TO_PARENTS": "No",
             "priesthoodOfficeSort": 3,
             "templeRecommendExpirationDateSort": "20231231",
@@ -3324,7 +3289,7 @@ let whoWhatWhere =
             "baptismDateSort": "20221210",
             "IS_RETURNED_MISSIONARY": "No",
             "PREFERRED_NAME": "Livingston, Johnathan",
-            "ADDRESS_STREET_1": "511 S Bowen Rd",
+            "ADDRESS_STREET_1": "1405 Waggoner Dr",
             "ADDRESS_STREET_2": null,
             "GENDER": "M",
             "id": 57185939479,
@@ -3332,15 +3297,15 @@ let whoWhatWhere =
             "AGE": "28",
             "HOME_TEACHERS": "Beus, Dallin Michael / McAlister, Noah",
             "IS_ATTENDING_INSTITUTE": "Yes",
-            "INDIVIDUAL_PHONE": "706-559-8184",
+            "INDIVIDUAL_PHONE": "817-856-8859",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "10 Dec 2022",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2023",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 69,
-            "ADDRESS_POSTAL_CODE": "76013-1252",
+            "preferredNameSort": 64,
+            "ADDRESS_POSTAL_CODE": "76013-1473",
             "INDIVIDUAL_EMAIL": "livingstonj557@gmail.com",
-            "birthdaySort": 92
+            "birthdaySort": 89
         },
         {
             "groupByUnitName": null,
@@ -3365,17 +3330,17 @@ let whoWhatWhere =
             "id": 6332802526,
             "BIRTHDAY": "13 Aug",
             "AGE": "29",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "469-877-5806",
             "ADDRESS_CITY": "Fort Worth",
             "BAPTISM_DATE": "31 Aug 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 40,
+            "preferredNameSort": 37,
             "ADDRESS_POSTAL_CODE": "76112-7534",
             "INDIVIDUAL_EMAIL": "acgilson@msn.com",
-            "birthdaySort": 93
+            "birthdaySort": 90
         },
         {
             "groupByUnitName": null,
@@ -3407,10 +3372,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 Sep 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 100,
+            "preferredNameSort": 95,
             "ADDRESS_POSTAL_CODE": "76011-1228",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 94
+            "birthdaySort": 91
         },
         {
             "groupByUnitName": null,
@@ -3442,15 +3407,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Dec 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 52,
+            "preferredNameSort": 49,
             "ADDRESS_POSTAL_CODE": "76019-1000",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 96
+            "birthdaySort": 92
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Huang, Coco / Davila, Daisy Belen",
+            "VISITING_TEACHERS": "Davila, Daisy Belen / Huang, Coco",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 22,
@@ -3470,17 +3435,17 @@ let whoWhatWhere =
             "id": 8267479231,
             "BIRTHDAY": "23 Aug",
             "AGE": "22",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-905-6588",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "30 Aug 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2023",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 76,
+            "preferredNameSort": 71,
             "ADDRESS_POSTAL_CODE": "76017-2253",
             "INDIVIDUAL_EMAIL": "mlm0823.mm@gmail.com",
-            "birthdaySort": 97
+            "birthdaySort": 93
         },
         {
             "groupByUnitName": null,
@@ -3512,10 +3477,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "24 Feb 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Deacon",
-            "preferredNameSort": 20,
+            "preferredNameSort": 19,
             "ADDRESS_POSTAL_CODE": "76010-5706",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 98
+            "birthdaySort": 94
         },
         {
             "groupByUnitName": null,
@@ -3547,10 +3512,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 5 Sep 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 130,
+            "preferredNameSort": 123,
             "ADDRESS_POSTAL_CODE": "76063-5365",
             "INDIVIDUAL_EMAIL": "Westleytatro@gmail.com",
-            "birthdaySort": 99
+            "birthdaySort": 95
         },
         {
             "groupByUnitName": null,
@@ -3585,7 +3550,7 @@ let whoWhatWhere =
             "preferredNameSort": 3,
             "ADDRESS_POSTAL_CODE": "76015",
             "INDIVIDUAL_EMAIL": "Stevieaguillon@yahoo.com",
-            "birthdaySort": 100
+            "birthdaySort": 96
         },
         {
             "groupByUnitName": null,
@@ -3617,10 +3582,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 5 Sep 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2025",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 74,
+            "preferredNameSort": 69,
             "ADDRESS_POSTAL_CODE": "76015-4015",
             "INDIVIDUAL_EMAIL": "drmccrary11@gmail.com",
-            "birthdaySort": 101
+            "birthdaySort": 97
         },
         {
             "groupByUnitName": null,
@@ -3652,10 +3617,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 2 Sep 2017",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2018",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 137,
+            "preferredNameSort": 130,
             "ADDRESS_POSTAL_CODE": "76011-5569",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 102
+            "birthdaySort": 98
         },
         {
             "groupByUnitName": null,
@@ -3687,10 +3652,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 5 Nov 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2020",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 132,
+            "preferredNameSort": 125,
             "ADDRESS_POSTAL_CODE": "76013-2935",
             "INDIVIDUAL_EMAIL": "rtche2@yahoo.com",
-            "birthdaySort": 103
+            "birthdaySort": 99
         },
         {
             "groupByUnitName": null,
@@ -3722,10 +3687,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 Nov 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2020",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 46,
+            "preferredNameSort": 43,
             "ADDRESS_POSTAL_CODE": "76006-2639",
             "INDIVIDUAL_EMAIL": "Adrianhern1996@gmail.com",
-            "birthdaySort": 105
+            "birthdaySort": 100
         },
         {
             "groupByUnitName": null,
@@ -3757,15 +3722,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 6 May 2017",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 75,
+            "preferredNameSort": 70,
             "ADDRESS_POSTAL_CODE": "76015",
             "INDIVIDUAL_EMAIL": "gavlynm@yahoo.com",
-            "birthdaySort": 106
+            "birthdaySort": 101
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Najera, Andrea Lopez / King, Ashley",
+            "VISITING_TEACHERS": "King, Ashley / Najera, Andrea Lopez",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 21,
@@ -3785,17 +3750,17 @@ let whoWhatWhere =
             "id": 8844108014,
             "BIRTHDAY": "10 Sep",
             "AGE": "21",
-            "HOME_TEACHERS": "Sarolia, Devn / Aguillon, Mitchell",
+            "HOME_TEACHERS": "Aguillon, Mitchell / Sarolia, Devn",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "469-543-4813",
             "ADDRESS_CITY": "Lancaster",
             "BAPTISM_DATE": "25 Sep 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 80,
+            "preferredNameSort": 75,
             "ADDRESS_POSTAL_CODE": "75134-1934",
             "INDIVIDUAL_EMAIL": "5x.oli.x5@gmail.com",
-            "birthdaySort": 107
+            "birthdaySort": 102
         },
         {
             "groupByUnitName": null,
@@ -3827,10 +3792,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Feb 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 141,
+            "preferredNameSort": 134,
             "ADDRESS_POSTAL_CODE": "76011-9321",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 108
+            "birthdaySort": 103
         },
         {
             "groupByUnitName": null,
@@ -3862,10 +3827,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 Oct 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Teacher",
-            "preferredNameSort": 143,
+            "preferredNameSort": 137,
             "ADDRESS_POSTAL_CODE": "76016-2711",
             "INDIVIDUAL_EMAIL": "jasonwinkle@gmail.com",
-            "birthdaySort": 109
+            "birthdaySort": 104
         },
         {
             "groupByUnitName": null,
@@ -3897,10 +3862,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Sep 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Deacon",
-            "preferredNameSort": 45,
+            "preferredNameSort": 42,
             "ADDRESS_POSTAL_CODE": "76010-1386",
             "INDIVIDUAL_EMAIL": "roberto.halsted281213@gmail.com",
-            "birthdaySort": 110
+            "birthdaySort": 105
         },
         {
             "groupByUnitName": null,
@@ -3932,10 +3897,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "25 Sep 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 139,
+            "preferredNameSort": 132,
             "ADDRESS_POSTAL_CODE": "76013-2527",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 111
+            "birthdaySort": 106
         },
         {
             "groupByUnitName": null,
@@ -3967,10 +3932,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "11 Jul 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 83,
+            "preferredNameSort": 78,
             "ADDRESS_POSTAL_CODE": "76010-6334",
             "INDIVIDUAL_EMAIL": "andreanajera201@gmail.com",
-            "birthdaySort": 112
+            "birthdaySort": 107
         },
         {
             "groupByUnitName": null,
@@ -4002,10 +3967,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "21 Jun 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 35,
+            "preferredNameSort": 33,
             "ADDRESS_POSTAL_CODE": "76012-4728",
             "INDIVIDUAL_EMAIL": "ciaraeasterling95@gmail.com",
-            "birthdaySort": 113
+            "birthdaySort": 108
         },
         {
             "groupByUnitName": null,
@@ -4037,10 +4002,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Nov 2013",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 85,
+            "preferredNameSort": 80,
             "ADDRESS_POSTAL_CODE": "76013-3409",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 114
+            "birthdaySort": 109
         },
         {
             "groupByUnitName": null,
@@ -4072,10 +4037,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "21 Mar 2020",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2021",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 27,
+            "preferredNameSort": 25,
             "ADDRESS_POSTAL_CODE": "76084",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 115
+            "birthdaySort": 110
         },
         {
             "groupByUnitName": null,
@@ -4107,15 +4072,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "28 Sep 2012",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Apr 2018",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 123,
+            "preferredNameSort": 117,
             "ADDRESS_POSTAL_CODE": "76016-4838",
             "INDIVIDUAL_EMAIL": "Stevedog2002@gmail.com",
-            "birthdaySort": 116
+            "birthdaySort": 111
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Huang, Coco / Davila, Daisy Belen",
+            "VISITING_TEACHERS": "Davila, Daisy Belen / Huang, Coco",
             "IS_CONVERT": "Yes",
             "CALLINGS": "<span class=\"custom-report-position\">Relief Society Second Counselor</span>",
             "ageSort": 21,
@@ -4135,7 +4100,7 @@ let whoWhatWhere =
             "id": 26731166265,
             "BIRTHDAY": "3 Oct",
             "AGE": "21",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "682-228-7401",
             "ADDRESS_CITY": "Arlington",
@@ -4145,7 +4110,7 @@ let whoWhatWhere =
             "preferredNameSort": 6,
             "ADDRESS_POSTAL_CODE": "76001-7638",
             "INDIVIDUAL_EMAIL": "nataliedc2002@gmail.com",
-            "birthdaySort": 117
+            "birthdaySort": 112
         },
         {
             "groupByUnitName": null,
@@ -4170,17 +4135,17 @@ let whoWhatWhere =
             "id": 7694798176,
             "BIRTHDAY": "3 Oct",
             "AGE": "23",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "682-251-9413",
             "ADDRESS_CITY": "Mansfield",
             "BAPTISM_DATE": "19 Oct 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 21,
+            "preferredNameSort": 20,
             "ADDRESS_POSTAL_CODE": "76063-7558",
             "INDIVIDUAL_EMAIL": "nicholebresee@att.net",
-            "birthdaySort": 118
+            "birthdaySort": 113
         },
         {
             "groupByUnitName": null,
@@ -4212,10 +4177,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Oct 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Teacher",
-            "preferredNameSort": 107,
+            "preferredNameSort": 102,
             "ADDRESS_POSTAL_CODE": "76013-2524",
             "INDIVIDUAL_EMAIL": "torqureshi@hotmail.com",
-            "birthdaySort": 119
+            "birthdaySort": 114
         },
         {
             "groupByUnitName": null,
@@ -4250,7 +4215,7 @@ let whoWhatWhere =
             "preferredNameSort": 5,
             "ADDRESS_POSTAL_CODE": "76140-2055",
             "INDIVIDUAL_EMAIL": "alfaro.daniel96@gmail.com",
-            "birthdaySort": 121
+            "birthdaySort": 115
         },
         {
             "groupByUnitName": null,
@@ -4275,17 +4240,52 @@ let whoWhatWhere =
             "id": 63754385782,
             "BIRTHDAY": "11 Oct",
             "AGE": "23",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "682-392-2900",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "18 Jun 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 89,
+            "preferredNameSort": 84,
             "ADDRESS_POSTAL_CODE": "76010-3010",
             "INDIVIDUAL_EMAIL": "nguyenchristine65@gmail.com",
-            "birthdaySort": 122
+            "birthdaySort": 116
+        },
+        {
+            "groupByUnitName": null,
+            "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
+            "VISITING_TEACHERS": "",
+            "IS_CONVERT": "Yes",
+            "CALLINGS": "",
+            "ageSort": 23,
+            "moveInDateSort": "20231203",
+            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "IS_SEALED_TO_PARENTS": "No",
+            "priesthoodOfficeSort": 3,
+            "templeRecommendExpirationDateSort": "20240531",
+            "MOVE_IN_DATE": " 3 Dec 2023",
+            "IS_ENDOWED": "No",
+            "baptismDateSort": "20230408",
+            "IS_RETURNED_MISSIONARY": "No",
+            "PREFERRED_NAME": "Williams, Simeon",
+            "ADDRESS_STREET_1": "503 Cannady Ct",
+            "ADDRESS_STREET_2": null,
+            "GENDER": "M",
+            "id": 61468276747,
+            "BIRTHDAY": "27 Oct",
+            "AGE": "23",
+            "HOME_TEACHERS": "",
+            "IS_ATTENDING_INSTITUTE": "No",
+            "INDIVIDUAL_PHONE": "469-337-6837",
+            "ADDRESS_CITY": "Cedar Hill",
+            "BAPTISM_DATE": " 8 Apr 2023",
+            "TEMPLE_RECOMMEND_EXPIRATION_DATE": "May 2024",
+            "PRIESTHOOD_OFFICE": "Priest",
+            "preferredNameSort": 136,
+            "ADDRESS_POSTAL_CODE": "75104-9208",
+            "INDIVIDUAL_EMAIL": "curismochrome@gmail.com",
+            "birthdaySort": 117
         },
         {
             "groupByUnitName": null,
@@ -4317,10 +4317,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "17 Oct 2009",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 23,
+            "preferredNameSort": 22,
             "ADDRESS_POSTAL_CODE": "76013-2935",
             "INDIVIDUAL_EMAIL": "tylerclark.62399@yahoo.com",
-            "birthdaySort": 123
+            "birthdaySort": 118
         },
         {
             "groupByUnitName": null,
@@ -4345,17 +4345,17 @@ let whoWhatWhere =
             "id": 7756671145,
             "BIRTHDAY": "8 Nov",
             "AGE": "23",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "Yes",
             "INDIVIDUAL_PHONE": "817-875-6729",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "29 Nov 2008",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2023",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 12,
+            "preferredNameSort": 11,
             "ADDRESS_POSTAL_CODE": "76001-5109",
             "INDIVIDUAL_EMAIL": "williamdbadger@gmail.com",
-            "birthdaySort": 124
+            "birthdaySort": 119
         },
         {
             "groupByUnitName": null,
@@ -4365,7 +4365,7 @@ let whoWhatWhere =
             "CALLINGS": "<span class=\"custom-report-position\">Bishopric First Counselor</span>",
             "ageSort": 29,
             "moveInDateSort": "20210119",
-            "TEMPLE_RECOMMEND_STATUS": "Expiring this month",
+            "TEMPLE_RECOMMEND_STATUS": "Expired less than 1 month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 6,
             "templeRecommendExpirationDateSort": "20231130",
@@ -4387,10 +4387,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "30 Nov 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Nov 2023",
             "PRIESTHOOD_OFFICE": "High Priest",
-            "preferredNameSort": 10,
+            "preferredNameSort": 9,
             "ADDRESS_POSTAL_CODE": "76015-2027",
             "INDIVIDUAL_EMAIL": "baclawskimark@gmail.com",
-            "birthdaySort": 125
+            "birthdaySort": 120
         },
         {
             "groupByUnitName": null,
@@ -4422,10 +4422,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Nov 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 110,
+            "preferredNameSort": 105,
             "ADDRESS_POSTAL_CODE": "76006-3926",
             "INDIVIDUAL_EMAIL": "opatrickrice@gmail.com",
-            "birthdaySort": 127
+            "birthdaySort": 121
         },
         {
             "groupByUnitName": null,
@@ -4433,7 +4433,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "Macones, Melissa / Rodden, Aubrey Renae",
             "IS_CONVERT": "No",
             "CALLINGS": "",
-            "ageSort": 21,
+            "ageSort": 22,
             "moveInDateSort": "20230126",
             "TEMPLE_RECOMMEND_STATUS": "Expired less than 3 months",
             "IS_SEALED_TO_PARENTS": "Yes",
@@ -4449,7 +4449,7 @@ let whoWhatWhere =
             "GENDER": "F",
             "id": 9771182195,
             "BIRTHDAY": "22 Nov",
-            "AGE": "21",
+            "AGE": "22",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "909-516-4328",
@@ -4457,10 +4457,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 3 Jan 2010",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2023",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 25,
+            "preferredNameSort": 23,
             "ADDRESS_POSTAL_CODE": "76002-4651",
             "INDIVIDUAL_EMAIL": "jessi.collier001@gmail.com",
-            "birthdaySort": 128
+            "birthdaySort": 122
         },
         {
             "groupByUnitName": null,
@@ -4468,7 +4468,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
-            "ageSort": 21,
+            "ageSort": 22,
             "moveInDateSort": "20220109",
             "TEMPLE_RECOMMEND_STATUS": "Expired",
             "IS_SEALED_TO_PARENTS": "Yes",
@@ -4484,7 +4484,7 @@ let whoWhatWhere =
             "GENDER": "M",
             "id": 38898704877,
             "BIRTHDAY": "22 Nov",
-            "AGE": "21",
+            "AGE": "22",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "832-670-4644",
@@ -4492,10 +4492,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "10 Aug 2019",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2021",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 134,
+            "preferredNameSort": 127,
             "ADDRESS_POSTAL_CODE": "76013-6937",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 129
+            "birthdaySort": 123
         },
         {
             "groupByUnitName": null,
@@ -4503,7 +4503,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "No",
             "CALLINGS": "",
-            "ageSort": 28,
+            "ageSort": 29,
             "moveInDateSort": "20210524",
             "TEMPLE_RECOMMEND_STATUS": null,
             "IS_SEALED_TO_PARENTS": "Yes",
@@ -4519,7 +4519,7 @@ let whoWhatWhere =
             "GENDER": "F",
             "id": 1488696486,
             "BIRTHDAY": "23 Nov",
-            "AGE": "28",
+            "AGE": "29",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-679-1693",
@@ -4527,10 +4527,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 Dec 2002",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 17,
+            "preferredNameSort": 16,
             "ADDRESS_POSTAL_CODE": "76106",
             "INDIVIDUAL_EMAIL": "namibeck@yahoo.com",
-            "birthdaySort": 130
+            "birthdaySort": 124
         },
         {
             "groupByUnitName": null,
@@ -4538,7 +4538,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
-            "ageSort": 24,
+            "ageSort": 25,
             "moveInDateSort": "20230730",
             "TEMPLE_RECOMMEND_STATUS": "Expired",
             "IS_SEALED_TO_PARENTS": "Yes",
@@ -4554,7 +4554,7 @@ let whoWhatWhere =
             "GENDER": "M",
             "id": 5991410558,
             "BIRTHDAY": "28 Nov",
-            "AGE": "24",
+            "AGE": "25",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "469-982-1472",
@@ -4562,10 +4562,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "26 Feb 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2021",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 82,
+            "preferredNameSort": 77,
             "ADDRESS_POSTAL_CODE": "76006",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 131
+            "birthdaySort": 125
         },
         {
             "groupByUnitName": null,
@@ -4573,7 +4573,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "No",
             "CALLINGS": "",
-            "ageSort": 27,
+            "ageSort": 28,
             "moveInDateSort": "20230723",
             "TEMPLE_RECOMMEND_STATUS": "Active",
             "IS_SEALED_TO_PARENTS": "Yes",
@@ -4589,7 +4589,7 @@ let whoWhatWhere =
             "GENDER": "F",
             "id": 3440788019,
             "BIRTHDAY": "29 Nov",
-            "AGE": "27",
+            "AGE": "28",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "928-965-3156",
@@ -4597,10 +4597,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "20 Dec 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 19,
+            "preferredNameSort": 18,
             "ADDRESS_POSTAL_CODE": "76002-5004",
             "INDIVIDUAL_EMAIL": "mbingham010@gmail.com",
-            "birthdaySort": 132
+            "birthdaySort": 126
         },
         {
             "groupByUnitName": null,
@@ -4608,7 +4608,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
-            "ageSort": 25,
+            "ageSort": 26,
             "moveInDateSort": "20220120",
             "TEMPLE_RECOMMEND_STATUS": "Expired",
             "IS_SEALED_TO_PARENTS": "No",
@@ -4624,7 +4624,7 @@ let whoWhatWhere =
             "GENDER": "F",
             "id": 40316611601,
             "BIRTHDAY": "29 Nov",
-            "AGE": "25",
+            "AGE": "26",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "817-818-6220",
@@ -4632,10 +4632,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "29 Nov 2019",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Dec 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 63,
+            "preferredNameSort": 58,
             "ADDRESS_POSTAL_CODE": "76006",
             "INDIVIDUAL_EMAIL": "Viviankollie002@gmail.com",
-            "birthdaySort": 133
+            "birthdaySort": 127
         },
         {
             "groupByUnitName": null,
@@ -4643,7 +4643,7 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
-            "ageSort": 27,
+            "ageSort": 28,
             "moveInDateSort": "20210802",
             "TEMPLE_RECOMMEND_STATUS": null,
             "IS_SEALED_TO_PARENTS": "No",
@@ -4659,7 +4659,7 @@ let whoWhatWhere =
             "GENDER": "F",
             "id": 18937644416,
             "BIRTHDAY": "30 Nov",
-            "AGE": "27",
+            "AGE": "28",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": null,
@@ -4667,10 +4667,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 2 Jul 2006",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 115,
+            "preferredNameSort": 110,
             "ADDRESS_POSTAL_CODE": "76010-8745",
             "INDIVIDUAL_EMAIL": "kidaruben@yahoo.com",
-            "birthdaySort": 134
+            "birthdaySort": 128
         },
         {
             "groupByUnitName": null,
@@ -4678,9 +4678,9 @@ let whoWhatWhere =
             "VISITING_TEACHERS": "",
             "IS_CONVERT": "Yes",
             "CALLINGS": "<span class=\"custom-report-position\">Ward Missionary</span>",
-            "ageSort": 28,
+            "ageSort": 29,
             "moveInDateSort": "20230122",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "No",
             "priesthoodOfficeSort": 3,
             "templeRecommendExpirationDateSort": "20240131",
@@ -4694,23 +4694,23 @@ let whoWhatWhere =
             "GENDER": "M",
             "id": 58487705736,
             "BIRTHDAY": "1 Dec",
-            "AGE": "28",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "AGE": "29",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "712-350-0579",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "21 Jan 2023",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "Priest",
-            "preferredNameSort": 54,
+            "preferredNameSort": 51,
             "ADDRESS_POSTAL_CODE": "76010-2552",
             "INDIVIDUAL_EMAIL": "dhowe10119@gmail.com",
-            "birthdaySort": 135
+            "birthdaySort": 129
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Hilton, Jessica / Collier, Jessi Aleksandra",
+            "VISITING_TEACHERS": "Collier, Jessi Aleksandra / Hilton, Jessica",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
             "ageSort": 25,
@@ -4730,17 +4730,17 @@ let whoWhatWhere =
             "id": 19195131436,
             "BIRTHDAY": "9 Dec",
             "AGE": "25",
-            "HOME_TEACHERS": "McCrary, David / Livingston, Johnathan / Tatro, Westley James",
+            "HOME_TEACHERS": "Tatro, Westley James / Livingston, Johnathan / McCrary, David",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "940-283-4493",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": " 8 Dec 2007",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Aug 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 34,
+            "preferredNameSort": 32,
             "ADDRESS_POSTAL_CODE": "76018-2029",
             "INDIVIDUAL_EMAIL": "taetae97lmd@gmail.com",
-            "birthdaySort": 136
+            "birthdaySort": 130
         },
         {
             "groupByUnitName": null,
@@ -4750,7 +4750,7 @@ let whoWhatWhere =
             "CALLINGS": "",
             "ageSort": 27,
             "moveInDateSort": "20210110",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": 4,
             "templeRecommendExpirationDateSort": "20240131",
@@ -4772,10 +4772,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "14 Mar 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 98,
+            "preferredNameSort": 93,
             "ADDRESS_POSTAL_CODE": "75014",
             "INDIVIDUAL_EMAIL": "logan.c.petree@gmail.com",
-            "birthdaySort": 137
+            "birthdaySort": 131
         },
         {
             "groupByUnitName": null,
@@ -4807,10 +4807,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "15 Dec 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2020",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 86,
+            "preferredNameSort": 81,
             "ADDRESS_POSTAL_CODE": "76017-1035",
             "INDIVIDUAL_EMAIL": "matthew.neathery@my.tccd.edu",
-            "birthdaySort": 138
+            "birthdaySort": 132
         },
         {
             "groupByUnitName": null,
@@ -4842,20 +4842,20 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 5 Feb 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2020",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 128,
+            "preferredNameSort": 121,
             "ADDRESS_POSTAL_CODE": "76013-6937",
             "INDIVIDUAL_EMAIL": "lexitaggart1213@gmail.com",
-            "birthdaySort": 139
+            "birthdaySort": 133
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Romero, Layla America / Namahoe, Kaimana Yoshiko / Siddall, Autumn Mary",
+            "VISITING_TEACHERS": "Siddall, Autumn Mary / Namahoe, Kaimana Yoshiko / Romero, Layla America",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 26,
             "moveInDateSort": "20230813",
-            "TEMPLE_RECOMMEND_STATUS": "Active",
+            "TEMPLE_RECOMMEND_STATUS": "Expiring next month",
             "IS_SEALED_TO_PARENTS": "Yes",
             "priesthoodOfficeSort": null,
             "templeRecommendExpirationDateSort": "20240131",
@@ -4877,15 +4877,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 9 Feb 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jan 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 94,
+            "preferredNameSort": 89,
             "ADDRESS_POSTAL_CODE": "76010-9509",
             "INDIVIDUAL_EMAIL": "oyebanjiopeyemio@gmail.com",
-            "birthdaySort": 140
+            "birthdaySort": 134
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "Romero, Layla America / Namahoe, Kaimana Yoshiko / Siddall, Autumn Mary",
+            "VISITING_TEACHERS": "Siddall, Autumn Mary / Namahoe, Kaimana Yoshiko / Romero, Layla America",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 30,
@@ -4905,17 +4905,17 @@ let whoWhatWhere =
             "id": 5225747926,
             "BIRTHDAY": "21 Dec",
             "AGE": "30",
-            "HOME_TEACHERS": "Young, Samuel Orrin / Livings, Dee",
+            "HOME_TEACHERS": "Livings, Dee / Young, Samuel Orrin",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "208-419-5101",
             "ADDRESS_CITY": "Cleburne",
             "BAPTISM_DATE": "10 Feb 2001",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Oct 2018",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 133,
+            "preferredNameSort": 126,
             "ADDRESS_POSTAL_CODE": "76033-4689",
             "INDIVIDUAL_EMAIL": "emilytedford17@gmail.com",
-            "birthdaySort": 141
+            "birthdaySort": 135
         },
         {
             "groupByUnitName": null,
@@ -4947,10 +4947,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "18 Jan 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 140,
+            "preferredNameSort": 133,
             "ADDRESS_POSTAL_CODE": "76013-6937",
             "INDIVIDUAL_EMAIL": "sweber1221@yahoo.com",
-            "birthdaySort": 142
+            "birthdaySort": 136
         },
         {
             "groupByUnitName": null,
@@ -4982,15 +4982,15 @@ let whoWhatWhere =
             "BAPTISM_DATE": "30 Jul 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Sep 2021",
             "PRIESTHOOD_OFFICE": "Elder",
-            "preferredNameSort": 102,
+            "preferredNameSort": 97,
             "ADDRESS_POSTAL_CODE": "76002-3614",
             "INDIVIDUAL_EMAIL": "dallinr.poole@gmail.com",
-            "birthdaySort": 143
+            "birthdaySort": 137
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "James, Tari Marie / Moore, Kjirstina / Badger, Emily Elizabeth",
+            "VISITING_TEACHERS": "Badger, Emily Elizabeth / Moore, Kjirstina / James, Tari Marie",
             "IS_CONVERT": "Yes",
             "CALLINGS": "<span class=\"custom-report-position\">Relief Society Teacher</span>",
             "ageSort": 26,
@@ -5017,17 +5017,17 @@ let whoWhatWhere =
             "BAPTISM_DATE": "23 Sep 2006",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jul 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 113,
+            "preferredNameSort": 108,
             "ADDRESS_POSTAL_CODE": "76010-4436",
             "INDIVIDUAL_EMAIL": "aubreyrodden@yahoo.com",
-            "birthdaySort": 144
+            "birthdaySort": 138
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
             "VISITING_TEACHERS": "Hofer, Lorelai Josephine / Moreno, Oliblish Xitlaly / Hofer, Imogen Dauphine",
             "IS_CONVERT": "Yes",
-            "CALLINGS": "<span class=\"custom-report-position\">Stake Emotional Resilience Facilitator</span>",
+            "CALLINGS": "",
             "ageSort": 69,
             "moveInDateSort": "20210304",
             "TEMPLE_RECOMMEND_STATUS": "Active",
@@ -5052,10 +5052,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "30 Dec 1961",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2024",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 59,
+            "preferredNameSort": 55,
             "ADDRESS_POSTAL_CODE": "76060-5620",
             "INDIVIDUAL_EMAIL": "txjamesgang@yahoo.com",
-            "birthdaySort": 145
+            "birthdaySort": 139
         },
         {
             "groupByUnitName": null,
@@ -5087,10 +5087,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": "20 Dec 2003",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 77,
+            "preferredNameSort": 72,
             "ADDRESS_POSTAL_CODE": "76016-5522",
             "INDIVIDUAL_EMAIL": null,
-            "birthdaySort": 146
+            "birthdaySort": 140
         },
         {
             "groupByUnitName": null,
@@ -5122,10 +5122,10 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 3 May 2014",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 145,
+            "preferredNameSort": 139,
             "ADDRESS_POSTAL_CODE": "76013- ",
             "INDIVIDUAL_EMAIL": "destinyw121234@gmail.com",
-            "birthdaySort": 147
+            "birthdaySort": 141
         },
         {
             "groupByUnitName": null,
@@ -5144,7 +5144,7 @@ let whoWhatWhere =
             "baptismDateSort": "20110129",
             "IS_RETURNED_MISSIONARY": "No",
             "PREFERRED_NAME": "Anderson, Charlotte",
-            "ADDRESS_STREET_1": "815 W Abram",
+            "ADDRESS_STREET_1": "815 W Abram St",
             "ADDRESS_STREET_2": "Apt 1450",
             "GENDER": "F",
             "id": 9397722801,
@@ -5152,20 +5152,20 @@ let whoWhatWhere =
             "AGE": "20",
             "HOME_TEACHERS": "",
             "IS_ATTENDING_INSTITUTE": "No",
-            "INDIVIDUAL_PHONE": "817-946-4769",
+            "INDIVIDUAL_PHONE": "817-964-4769",
             "ADDRESS_CITY": "Arlington",
             "BAPTISM_DATE": "29 Jan 2011",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2021",
             "PRIESTHOOD_OFFICE": "",
             "preferredNameSort": 8,
-            "ADDRESS_POSTAL_CODE": "76010-2774",
+            "ADDRESS_POSTAL_CODE": "76013-7064",
             "INDIVIDUAL_EMAIL": "charlotte.reese.anderson@gmail.com",
-            "birthdaySort": 148
+            "birthdaySort": 142
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Regular",
-            "VISITING_TEACHERS": "James, Tari Marie / Moore, Kjirstina / Badger, Emily Elizabeth",
+            "VISITING_TEACHERS": "Badger, Emily Elizabeth / Moore, Kjirstina / James, Tari Marie",
             "IS_CONVERT": "Yes",
             "CALLINGS": "",
             "ageSort": 28,
@@ -5185,22 +5185,22 @@ let whoWhatWhere =
             "id": 16499817195,
             "BIRTHDAY": "30 Dec",
             "AGE": "28",
-            "HOME_TEACHERS": "Fiame, Maurice / Duncan, Joshua David",
+            "HOME_TEACHERS": "Duncan, Joshua David / Fiame, Maurice",
             "IS_ATTENDING_INSTITUTE": "No",
             "INDIVIDUAL_PHONE": "801-512-1492",
             "ADDRESS_CITY": "Mansfield",
             "BAPTISM_DATE": "15 Aug 2004",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Jun 2023",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 66,
+            "preferredNameSort": 61,
             "ADDRESS_POSTAL_CODE": "76063-5343",
             "INDIVIDUAL_EMAIL": "emmalebbie@gmail.com",
-            "birthdaySort": 149
+            "birthdaySort": 143
         },
         {
             "groupByUnitName": null,
             "TEMPLE_RECOMMEND_TYPE": "Proxy Baptisms and Confirmations",
-            "VISITING_TEACHERS": "Lebbie, Emmanuella / Gilson, Amanda",
+            "VISITING_TEACHERS": "Gilson, Amanda / Lebbie, Emmanuella",
             "IS_CONVERT": "No",
             "CALLINGS": "",
             "ageSort": 26,
@@ -5227,11 +5227,11 @@ let whoWhatWhere =
             "BAPTISM_DATE": " 1 Jan 2005",
             "TEMPLE_RECOMMEND_EXPIRATION_DATE": "Feb 2019",
             "PRIESTHOOD_OFFICE": "",
-            "preferredNameSort": 61,
+            "preferredNameSort": 56,
             "ADDRESS_POSTAL_CODE": null,
             "INDIVIDUAL_EMAIL": "king.ashley1996@gmail.com",
-            "birthdaySort": 150
+            "birthdaySort": 144
         }
     ],
     "printMailingLabelMembers": null
-}
+};
