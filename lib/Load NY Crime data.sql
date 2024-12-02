@@ -34,11 +34,7 @@ CREATE TABLE crimes (
 
 --
 -- 
-<<<<<<< HEAD
 LOAD DATA LOCAL INFILE '/Users/garyjames/Documents/MyProjects/Node-MySQL/lib/100K.CSV'
-=======
-LOAD DATA INFILE '/Users/garyjames/Library/Mobile Documents/com~apple~CloudDocs/WebstormProjects/csv/100K.CSV'
->>>>>>> 78930f907c3477a2e2c6431b1c859ccbc0832ef0
 INTO TABLE crimes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
