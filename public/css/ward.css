@@ -1,0 +1,79 @@
+html, body, #main, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.leaflet-popup-content p { margin: 4px 0px 2px 8px; }
+.btn                     { margin: 3px; padding: 5px; }
+.badge                   { width: 60px; }
+div:has(a.collapsed)     { width: 150px; }
+.scroll                  { height: 450px; overflow-y: scroll; }
+
+.info {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    z-index: 100;
+    width: 290px;
+}
+
+#updates, #showDistance {
+    list-style: none;
+    margin: 3px;
+    padding: 2px;
+}
+
+#updates li {
+    margin: 2px 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.panel {
+    background-color: rgba(var(--bs-info-rgb));
+    border-radius: 10px;
+    padding: 2px 2px 4px 4px;
+}
+
+ul                       { padding: 0px; }
+ul.dropdown-menu         { width: 210px; }
+li                       { list-style-type: none; --bs-opacity: .45; }
+li.query                 { padding: 1px 5px; }
+li.query:nth-child(odd)  { background: rgba(var(--bs-info-rgb),    var(--bs-opacity)); }
+li.query:nth-child(even) { background: rgba(var(--bs-warning-rgb), var(--bs-opacity)); }
+li.query:hover           { background: rgba(var(--bs-danger-rgb), var(--bs-opacity)); }
+
+label                    { padding: 0px 2px;}
+
+.ATOZ {background: url("../images/atoz.svg") no-repeat right top;}
+.ZTOA {background: url("../images/ztoa.svg") no-repeat right bottom;}
+
+.table-ward {
+    --bs-table-color: #000;
+    --bs-table-bg: var(--bs-secondary-bg-subtle);
+    --bs-table-border-color: #a7b9b1;
+    --bs-table-striped-bg: var(--bs-primary-bg-subtle);
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #bcd0c7;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: var(--bs-danger-bg-subtle);
+    --bs-table-hover-color: #000;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+  }
+
+.table-striped-columns > tr > :nth-child(even) {
+    --bs-table-color-type: var(--bs-table-striped-color);
+    --bs-table-bg-type: var(--bs-table-striped-bg);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-color-type: var(--bs-table-striped-color);
+    --bs-table-bg-type: var(--bs-table-striped-bg);
+}
+
+
+thead tr:nth-child(1) th{position: sticky;top: 0;z-index: 10;}

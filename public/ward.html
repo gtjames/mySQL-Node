@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gary T. James">
+    <title>Ward Clerk 1.0</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./css/ward.css">
+  </head>
+  <body>
+
+<div class="info panel panel-default">
+  <a id="shrink" class="btn btn-warning collapsed" data-bs-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">x</a>
+  <span id="count">0</span>
+  <div class="collapse" id="collapse">
+    <div class="panel-body scroll bg-info-subtle">
+      <ol id="updates"></ol>
+    </div>
+  </div>
+</div>
+
+  <div id="main">
+    <div id="map"></div>
+  </div>
+
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="members">Ward Clerk</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="dropup">
+        <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Search For:
+        </button>
+        <ul class="dropdown-menu">
+          <li><h1 class="dropdown-header">Search For:</h1></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="name"       id="Name"        placeholder="Name"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="address1"   id="Address1"    placeholder="Address"                ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="zip"        id="Zip"         placeholder="Zip"                    ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="city"       id="City"        placeholder="City"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="age"        id="Age"         placeholder="Age"                    ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="birthday"   id="BDay"        placeholder="BDay"                   ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="notes"      id="Notes"       placeholder="Notes"                  ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="callings"   id="Callings"    placeholder="Callings"               ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="priesthood" id="Priesthood"  placeholder="Priesthood"             ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="recommend"  id="Recommend"   placeholder="Recommend Status"       ></li>
+          <li class="query"><input class="dropdown-item" type="text"   name="recType"    id="RecType"     placeholder="Recommend Type"         ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="recExpire"  id="RecExpire"   placeholder="Rec Expiring in x days" ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="movedIn"    id="MovedIn"     placeholder="Moved In (days ago)"    ></li>
+          <li class="query"><input class="dropdown-item" type="number" name="baptized"   id="Baptized"    placeholder="Baptized (days ago)"    ></li>
+        </ul>
+      </div>
+
+      <div class="dropup">
+          <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Check For:
+          </button>
+          <ul class="dropdown-menu">
+              <li><h1 class="dropdown-header">Check For:</h1></li>
+              <li class="query"><input type="checkbox"                   id="EQ"        /><label for="EQ">Elders</label></li>
+              <li class="query"><input type="checkbox"                   id="RS"        /><label for="RS">Relief Society</label></li>
+              <li class="query"><input type="checkbox"                   id="Active"    /><label for="Active">Active</label>
+                                <input type="checkbox"                   id="NotActive" /><label for="NotActive">Not</label></li>
+              <li class="query"><input type="checkbox" name="endowed"    id="Endowed"   /><label for="Endowed">Endowed</label>
+                                <input type="checkbox"                   id="NotEndowed"/><label for="NotEndowed">Not</label></li>
+              <li class="query"><input type="checkbox" name="convert"    id="Convert"   /><label for="Convert">Convert</label></li>
+              <li class="query"><input type="checkbox" name="RM"         id="RM"        /><label for="RM">RM</label></li>
+              <li class="query"><input type="checkbox" name="institute"  id="Institute" /><label for="Institute">Institute</label></li>
+              <li class="query"><input type="checkbox" name="sealed"     id="Sealed"    /><label for="Sealed">Sealed</label></li>
+              <li class="query"><input type="checkbox"                   id="Bro"       /><label for="Bro">Ministering Bro</label>
+                                <input type="checkbox"                   id="NotBro"    /><label for="NotBro">Not</labe></li>
+              <li class="query"><input type="checkbox"                   id="Sis"       /><label for="Sis">Ministering Sis</label>
+                                <input type="checkbox"                   id="NotSis"    /><label for="NotSis">Not</label></li>
+          </ul>
+        </div>
+
+        <div class="dropup">
+          <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Include in Popup:
+          </button>
+          <ul class="dropdown-menu">
+            <li><h1 id="include" class="dropdown-header">Include in Popup:</h1></li>
+            <li class="query"><input type="checkbox" id="popSpeak"      ><label for="popSpeak"   >Speak </label></li>
+            <li class="query"><input type="checkbox" id="popAddress"    ><label for="popAddress"   >Address </label></li>
+            <li class="query"><input type="checkbox" id="popStats"      ><label for="popStats"     >Stats   </label></li>
+            <li class="query"><input type="checkbox" id="popContact"    ><label for="popContact"   >Contact </label></li>
+            <li class="query"><input type="checkbox" id="popMbrInfo"    ><label for="popMbrInfo"   >Member Info</label></li>
+            <li class="query"><input type="checkbox" id="popTemple"     ><label for="popTemple"    >Temple  </label></li>
+            <li class="query"><input type="checkbox" id="popMinistering"><label for="popMinistering">Ministering</label></li>
+            <li class="query"><input type="checkbox" id="popLatLong"    ><label for="popLatLong"   >Lat Long</label></li>
+          </ul>
+        </div>
+
+      <table>
+        <tr><td>
+          <div class="form-check form-switch"> 
+            <input id="list" class="form-check-input" type="checkbox" role="switch">
+            <label class="label" for="list"><span class="badge rounded-pill text-bg-primary">List</span></label>
+          </div>
+        </td></tr>
+        <tr><td>
+          <div class="form-check form-switch"> 
+            <input id="nameTags" class="form-check-input" type="checkbox" role="switch">
+            <label class="label" for="nameTags"><span class="badge rounded-pill text-bg-primary">Tags</span></label>
+          </div>
+        </td></tr>
+      </table>
+
+      <button id="plot"     class="btn btn-success navbar-btn">Plot Addresses</button>
+      <button id="remove"   class="btn btn-warning navbar-btn">Clear</button>
+    </div>
+
+    <button id="getLatLong"   class="btn btn-danger navbar-btn float-end ">GPS from Adrs</button>
+    <button id="getZeroGPS"   class="btn btn-danger navbar-btn float-end ">Missing GPS</button>
+    <button id="newAddress"   class="btn btn-primary" type="button">New Member</button>
+  </div>
+</nav>
+<!-- Modal -->
+<div class="modal" id="myModal" tabindex="1">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content bg-info-subtle">
+      <div class="modal-header bg-info-subtle">
+        <h1 class="modal-title fs-5" id="modalTitle">Distance From</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-secondary-subtle pt-0">
+        <table class="table sortable table-hover table-striped table-ward">
+          <thead class="table-secondary"><tr><th>To First</th><th>Last</th><th>Distance</th></tr></thead>
+          <tbody id="distList"></tbody>
+        </table>
+      </div>
+      <div class="modal-footer bg-info-subtle">
+        <div id="totalDist"></div>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./js/fallback.js"></script>
+  <script src="./js/notes.js"></script>
+  <script src="./js/wardList.js"></script>
+  <script src="./js/whoWhatWhere.js"></script>
+  <script src="./js/wardClerk.js"></script>
+  <script src="./js/sortable.js"></script>
+</body>
+</html>
