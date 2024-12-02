@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
 router.get('/add', function(req, res, next) {
     // render to add.ejs
     res.render('books/add', {
-        name: '',                   //  no data because we are adding a new book
+        title: '',                   //  no data because we are adding a new book
         author: ''
     })
 })
@@ -36,20 +36,20 @@ router.get('/add', function(req, res, next) {
 //      this is a POST request. We are receiving data back from the client
 router.post('/add', function(req, res, next) {
 
-    let name = req.body.name;           //  the body object from the client contains our data
+    let title = req.body.title;           //  the body object from the client contains our data
     let author = req.body.author;
 
-    if(name.length === 0 || author.length === 0) {      //  not so fast. If you didn't enter anything we are not going to add that
+    if(title.length === 0 || author.length === 0) {      //  not so fast. If you didn't enter anything we are not going to add that
         // set flash message
-        req.flash('error', "Please enter name and author");
+        req.flash('error', "Please enter author and title");
         // render to add.ejs with flash message
         res.render('books/add', {
-            name: name,     //  notice we return the data we did get. So if one of these is filled in
+            title: title,     //  notice we return the data we did get. So if one of these is filled in
             author: author  //  then it will get displayed back on the page
         })
     }   else {                  // if no error
         var form_data = {
-            name: name,
+            title: title,
             author: author
         }
 
@@ -62,8 +62,8 @@ router.post('/add', function(req, res, next) {
 
                 // render to add.ejs
                 res.render('books/add', {
-                    name: form_data.name,
-                    author: form_data.author
+                    author: form_data.author,
+                    title: form_data.title
                 })
             } else {
                 req.flash('success', 'Book successfully added');
@@ -92,8 +92,8 @@ router.get('/edit/(:id)', function(req, res, next) {
             res.render('books/edit', {
                 title: 'Edit Book',
                 id: rows[0].id,
-                name: rows[0].name,
-                author: rows[0].author
+                author: rows[0].author,
+                title: rows[0].title
             })
         }
     })
@@ -103,20 +103,20 @@ router.get('/edit/(:id)', function(req, res, next) {
 router.post('/update/:id', function(req, res, next) {
 
     let id = req.params.id;
-    let name = req.body.name;
     let author = req.body.author;
+    let title = req.body.title;
 
-    if(name.length === 0 || author.length === 0) {
+    if(title.length === 0 || author.length === 0) {
         // set flash message
-        req.flash('error', "Please enter name and author");
+        req.flash('error', "Please enter title and author");
         // render to add.ejs with flash message
         res.render('books/edit', {
             id: req.params.id,
-            name: name,
-            author: author
+            author: author,
+            title: title
         })
     } else {            // if no error
-        var form_data = { name: name, author: author };
+        var form_data = { author: author, title: title };
 
         // update query
         dbConn.query('UPDATE books SET ? WHERE id = ' + id, form_data, function(err, result) {
@@ -127,8 +127,8 @@ router.post('/update/:id', function(req, res, next) {
                 // render to edit.ejs
                 res.render('books/edit', {
                     id: req.params.id,
-                    name: form_data.name,
-                    author: form_data.author
+                    author: form_data.author,
+                    title: form_data.title
                 })
             } else {
                 req.flash('success', 'Book successfully updated');

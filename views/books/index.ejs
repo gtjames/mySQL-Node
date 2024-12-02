@@ -41,8 +41,8 @@
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Name</th>
                     <th scope="col">Author</th>
+                    <th scope="col">Title</th>
                     <th width="200px">Action</th>
                 </tr>
                 </thead>
@@ -50,8 +50,8 @@
                 <% for(var i = 0; i< data.length; i++) { %>
                     <tr>
                         <th scope="row"><%= (i+1) %></th>
-                        <td><%= data[i].name.toUpperCase()%></td>
                         <td><%= data[i].author%></td>
+                        <td><%= data[i].title.toUpperCase()%></td>
                         <td>
                             <a class="btn btn-success edit" href="../books/edit/<%=data[i].id%>">Edit</a>
                             <a class="btn btn-danger delete" onclick="return alert('Are You sure?')" href="../books/delete/<%=data[i].id%>">Delete</a>

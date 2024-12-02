@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     dbConn.query('SELECT CrimeId, ComplaintNum, ReportDate, OffenseDesc, Borough, PremiseType ' +
         ' FROM crimes ' +
         ' ORDER BY ReportDate desc' +
-        ' limit 100',
+        ' limit 50',
         function(err,rows)     {
             if(err) {
                 req.flash('error', err);
